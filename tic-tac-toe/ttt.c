@@ -1,0 +1,144 @@
+// Buffer Overflow problem -- solution: load name up with enough chars to
+// overwrite score. Note that to make this problem actually hard, I suggest only
+// giving them the compiled file and not the source code.
+
+#include<stdlib.h>
+#include<stdio.h>
+
+char *flag = "who_said_this_is_not_winnable";
+char player = 'O';
+char comp = 'X';
+char board[9];
+int winningConds[8][3] = {
+    {0, 1, 2},
+    {3, 4, 5},
+    {6, 7, 8},
+    {0, 3, 6},
+    {1, 4, 7},
+    {2, 5, 8},
+    {0, 4, 8},
+    {2, 4, 6}
+};
+
+void draw(char b[9]) {
+    printf("-------------\n");
+    printf("| %c | %c | %c |\n", b[0], b[1], b[2]);
+    printf("|---+---+---|\n");
+    printf("| %c | %c | %c |\n", b[3], b[4], b[5]);
+    printf("|---+---+---|\n");
+    printf("| %c | %c | %c |\n", b[6], b[7], b[8]);
+    printf("-------------\n");
+}
+
+int spaceLeft(char b[9]) {
+    int filled = 0;
+    int i;
+    for (i = 0 ; i < 9 ; i++) {
+        if (b[i] == ' ')
+            filled++;
+    }
+
+    return filled;
+}
+
+char checkWin(char b[9], int win[8][3]) {
+    int i;
+    for (i = 0 ; i < 8 ; i++) {
+        if (b[win[i][0]] != ' ' &&
+            b[win[i][0]] == b[win[i][1]] &&
+            b[win[i][0]] == b[win[i][2]])
+                return b[win[i][0]];
+    }
+
+    return ' ';
+}
+
+void resetBoard(char b[9]) {
+    int i;
+    for (i = 0 ; i < 9 ; i++) {
+        b[i] = ' ';
+    }
+}
+
+void playerMove(char b[9]) {
+    int move = -1;
+    while (move > 8 || move < 0 || b[move] != ' ') {
+        printf("\nYour move? (pick a vacant spot) ");
+        scanf("%d", &move);
+        printf("\n");
+    }
+
+    b[move] = player;
+}
+
+void compMove(char b[9]) {
+    int i;
+    for (i = 0 ; i < 9 ; i++) {
+        if (b[i] == ' ') {
+            b[i] = player;
+            if (checkWin(b, winningConds) == player) {
+                b[i] = comp; // Need to patch one-way-win's first.
+                return;
+            }
+            else {
+                b[i] = ' ';
+            }
+        }
+    }
+    // No critical conditions...
+    // YOLO!
+    int moveYolo = 4;
+
+    while (b[moveYolo] != ' ') {
+        moveYolo = rand() % 9;
+    }
+
+    b[moveYolo] = comp;
+}
+
+int game(int s, char b[9]) {
+    while (checkWin(b, winningConds) == ' ') {
+        printf("Your current score: %d\n", s);
+        draw(b);
+        playerMove(b);
+        if ((spaceLeft(b))) {
+            compMove(b);
+        }
+        else {
+            break;
+        }
+        getchar();
+        printf("\033\143\n");
+    }
+
+    draw(b);
+
+    if (checkWin(b, winningConds) == player)
+        return s + 1;
+    if (checkWin(b, winningConds) == comp)
+        return s - 1;
+}
+
+int main(int argc, char **argv) {
+    char name[30];
+    int score = 4369;
+
+    printf("Hello! Welcome to this game of tic-tac-toe, what is your name?\n");
+    scanf("%s", &name);
+
+    printf("Welcome! ");
+    printf(name);
+
+    while (score > -10 && score < 10) {
+        resetBoard(board);
+        score = game(score, board);
+    }
+
+    if (score == 10) {
+        printf("INCONCEIVABLE!!!\nHere's your flag: %s\n", flag);
+    }
+
+    else {
+        printf("You lost! Better luck next time!\n");
+    }
+}
