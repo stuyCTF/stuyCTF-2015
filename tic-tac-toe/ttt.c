@@ -85,6 +85,26 @@ void compMove(char b[9]) {
             }
         }
     }
+
+    // Patch for the very critical condition
+
+    int corners[] = {0, 2, 6, 8};
+
+    if (b[4] == ' ') {
+        b[4] = comp;
+        return;
+    }
+
+    if (b[4] == player) {
+        for (i = 0 ; i < 4 ; i++) {
+            if (b[corners[i]] == ' ') {
+                b[corners[i]] = comp;
+                return;
+            }
+        }
+    }
+    
+
     // No critical conditions...
     // YOLO!
     int moveYolo = 4;
@@ -94,6 +114,7 @@ void compMove(char b[9]) {
     }
 
     b[moveYolo] = comp;
+    return;
 }
 
 int game(int s, char b[9]) {
