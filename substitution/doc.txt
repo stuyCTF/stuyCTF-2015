@@ -1,0 +1,27 @@
+At birth, your data trail began. You were given a name, your height and weight
+were recorded, and probably a few pictures were taken. A few years later, you
+were enrolled in day care, you received your first birthday party invitation,
+and you were recorded in a census. Today, you have a Social Security or national
+ID number, bank accounts and credit cards, and a smart phone that always knows
+where you are. Perhaps you post family pictures on Facebook; tweet about
+politics; and reveal your changing interests, worries, and desires in thousands
+of Google searches. Sometimes you share data intentionally, with friends,
+strangers, companies, and governments. But vast amounts of information about you
+are collected with only perfunctory consent—or none at all. Soon, your entire
+genome may be sequenced and shared by researchers around the world along with
+your medical records, flying cameras may hover over your neighborhood, and
+sophisticated software may recognize your face as you enter a store or an
+airport.
+
+For scientists, the vast amounts of data that people shed every day offer great
+new opportunities but new dilemmas as well. New computational techniques can
+identify people or trace their behavior by combining just a few snippets of
+data. There are ways to protect the private information hidden in big data
+files, but they limit what scientists can learn; a balance must be struck. Some
+medical researchers acknowledge that keeping patient data private is becoming
+almost impossible; instead, they're testing new ways to gain patients' trust and
+collaboration. Meanwhile, how we think and feel about privacy isn't static.
+Already, younger people reveal much more about their lives on the Web than older
+people do, and our preferences about what we want to keep private can change
+depending on the context, the moment, or how we're nudged. Privacy as we have
+known it is ending, and we're only beginning to fathom the consequences.

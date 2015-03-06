@@ -1,0 +1,10 @@
+OK so I encrypted the following article:
+http://www.sciencemag.org/content/347/6221/490.full
+
+using encrypt.py, which is a custom substitution cipher.
+
+The flag will be the name of the article, with spaces replaced by underscores (?)
+i.e. The_end_of_privacy
+
+To solve, one must use frequency analysis... The hint should be that this is
+encrypted by a substitution cipher :D.
