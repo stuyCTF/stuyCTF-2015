@@ -1,3 +1,7 @@
+The end of privacy
+
+Martin Enserink, Gilbert Chin
+
 At birth, your data trail began. You were given a name, your height and weight
 were recorded, and probably a few pictures were taken. A few years later, you
 were enrolled in day care, you received your first birthday party invitation,
@@ -11,7 +15,8 @@ are collected with only perfunctory consent—or none at all. Soon, your entire
 genome may be sequenced and shared by researchers around the world along with
 your medical records, flying cameras may hover over your neighborhood, and
 sophisticated software may recognize your face as you enter a store or an
-airport.
+airport. The flag is the title of the article with space substituted by
+underscores.
 
 For scientists, the vast amounts of data that people shed every day offer great
 new opportunities but new dilemmas as well. New computational techniques can
