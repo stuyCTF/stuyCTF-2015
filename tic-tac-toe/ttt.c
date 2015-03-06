@@ -107,21 +107,22 @@ int game(int s, char b[9]) {
         else {
             break;
         }
-        getchar();
         printf("\033\143\n");
     }
 
     draw(b);
 
     if (checkWin(b, winningConds) == player)
-        return s + 1;
+        s = s + 1;
     if (checkWin(b, winningConds) == comp)
-        return s - 1;
+        s = s - 1;
+
+    return s;
 }
 
 int main(int argc, char **argv) {
     char name[30];
-    int score = 4369;
+    int score = 0;
 
     printf("Hello! Welcome to this game of tic-tac-toe, what is your name?\n");
     scanf("%s", &name);
