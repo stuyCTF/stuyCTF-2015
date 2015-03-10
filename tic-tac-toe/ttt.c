@@ -26,6 +26,14 @@ void draw(char b[9]) {
     printf("-------------\n");
 }
 
+
+void clean_stdin() {
+    int c;
+    do {
+        c = getchar();
+    } while (c != '\n' && c != EOF);
+}
+
 int spaceLeft(char b[9]) {
     int filled = 0;
     int i;
@@ -58,9 +66,10 @@ void resetBoard(char b[9]) {
 
 void playerMove(char b[9]) {
     int move = -1;
-    while (move > 8 || move < 0 || b[move] != ' ') {
+    while (move < 0 || move > 8 || b[move] != ' ') {
         printf("\nYour move? (pick a vacant spot) ");
         scanf("%d", &move);
+        clean_stdin();
         printf("\n");
     }
 
