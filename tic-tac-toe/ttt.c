@@ -1,7 +1,3 @@
-// Buffer Overflow problem -- solution: load name up with enough chars to
-// overwrite score. Note that to make this problem actually hard, I suggest only
-// giving them the compiled file and not the source code.
-
 #include<stdlib.h>
 #include<stdio.h>
 
@@ -142,21 +138,20 @@ int game(int s, char b[9]) {
 }
 
 int main(int argc, char **argv) {
-    char name[30];
     int score = 0;
+    char name[30];
 
     printf("Hello! Welcome to this game of tic-tac-toe, what is your name?\n");
-    scanf("%s", &name);
+    scanf("%s", name);
 
-    printf("Welcome! ");
-    printf(name);
+    printf("Welcome! %s\n", name);
 
-    while (score > -10 && score < 10) {
+    while (score > -15 && score < 15) {
         resetBoard(board);
         score = game(score, board);
     }
 
-    if (score == 10) {
+    if (score == 15) {
         printf("INCONCEIVABLE!!!\nHere's your flag: %s\n", flag);
     }
 

@@ -1,1 +1,2 @@
-gcc -m32 -o ttt ttt.c
+all:
+	gcc -m32 -fno-stack-protector -o ttt ttt.c

