@@ -1,0 +1,3 @@
+Use netcat-traditional
+
+$ ncat -l -p 12345 -e yoloswag.py
