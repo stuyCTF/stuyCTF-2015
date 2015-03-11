@@ -1,0 +1,17 @@
+If we run `file impossible`, we notice that the binary is not stripped. If we
+load up gdb, we see that the binary contains debugging symbols, so we can use
+gdb to step through the program and print out the value of the flag.
+Run `objdump -d impossible` to locate a breakpoint after the flag is decrypted.
+For this solution, we'll set the breakpoint at the call to strcmp 
+(`objdump -d impossible | grep "strcmp"`), address 0x8048661.
+Then open up gdb with `gdb impossible`, and issue the commands:
+    break *0x8048661
+    run
+    <Enter anything to advance past prompt>
+    print flag
+When gdb prints out the flag, backslashes in the string are automatically
+escaped with a baskslash, so we need to replace the double backslashes with
+single backslashes, and the result will be our flag.
+
+Instead of `print flag`, you could also run `x/s $ebx` to print the value pointed
+to by the ebx register as a string, which is the flag.
