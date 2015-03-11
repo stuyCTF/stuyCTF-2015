@@ -15,8 +15,7 @@ are collected with only perfunctory consent—or none at all. Soon, your entire
 genome may be sequenced and shared by researchers around the world along with
 your medical records, flying cameras may hover over your neighborhood, and
 sophisticated software may recognize your face as you enter a store or an
-airport. The flag is the title of the article with space substituted by
-underscores.
+airport. stuyctf{the_3nd_0f_pr1vacy}
 
 For scientists, the vast amounts of data that people shed every day offer great
 new opportunities but new dilemmas as well. New computational techniques can

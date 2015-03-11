@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-char *flag = "who_said_this_is_not_winnable";
+char *flag = "stuyctf{who_said_this_is_not_winnable}";
 char player = 'O';
 char comp = 'X';
 char board[9];
