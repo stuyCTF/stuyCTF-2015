@@ -5,6 +5,7 @@
 
 import string
 import random
+import sys
 
 del __builtins__.__dict__['__import__']
 del __builtins__.__dict__['reload']
@@ -25,7 +26,7 @@ otp = generateString()
 
 USER_USERNAME = ""
 
-for i in range(1 , 3):
+for i in range(1 , 4):
     print "Attempt " + str(i) + " of 3."
     try:
         USER_USERNAME = str(raw_input("Username: "))
@@ -39,10 +40,10 @@ for i in range(1 , 3):
         USER_ATTEMPT = str(raw_input("Password for " + USER_USERNAME + " : "))
         if str(USER_ATTEMPT).strip() == str(otp).strip():
             f = open("flag.txt")
-            print(f.read())
+            print f.read()
             f.close()
-            quit(0)
+            sys.exit(0)
         else:
             print "Incorrect!"
-    except:
+    except Exception, e: # Only catch exceptions and not system exit
         print "Incorrect!"
