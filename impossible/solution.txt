@@ -10,7 +10,7 @@ Then open up gdb with `gdb impossible`, and issue the commands:
     <Enter anything to advance past prompt>
     print flag
 When gdb prints out the flag, backslashes in the string are automatically
-escaped with a baskslash, so we need to replace the double backslashes with
+escaped with a backslash, so we need to replace the double backslashes with
 single backslashes, and the result will be our flag.
 
 Instead of `print flag`, you could also run `x/s $ebx` to print the value pointed
