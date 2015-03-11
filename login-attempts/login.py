@@ -28,7 +28,10 @@ USER_USERNAME = ""
 for i in range(1 , 3):
     print "Attempt " + str(i) + " of 3."
     try:
-        USER_USERNAME = str(input("Username: "))
+        USER_USERNAME = str(raw_input("Username: "))
+        if len(USER_USERNAME) < 11:
+            tmp = str(eval(USER_USERNAME.strip()))
+            USER_USERNAME = tmp
     except:
         print "Entry failed. Using randomly generated username."
         USER_USERNAME = generateString()
