@@ -1,0 +1,5 @@
+$ unzip findtheflag.png
+$ cd deeper
+$ cat "   "
+
+stuyctf{dont_fall_into_the_hole}
