@@ -1,0 +1,7 @@
+it is written in Elvish alphabet, translated into English will give you:
+abcgkbn{mtdma_pidm_muxmzwza_bww?}
+
+That is a rot-8 cipher of
+stuyctf{elves_have_emperors_too?}
+
+which is the flag
