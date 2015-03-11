@@ -1,0 +1,3 @@
+Open flag.jpg in an image editor
+Flood fill background with a dark color, e.g. black
+Zoom in, and we can read the flag: stuyctf{fill_ftw}

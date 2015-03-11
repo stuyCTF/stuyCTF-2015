@@ -1,4 +1,0 @@
-Open in a picture editor
-Flood fill background
-stuyctf{fill_ftw}
-
