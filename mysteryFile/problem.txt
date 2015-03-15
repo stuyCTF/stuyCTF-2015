@@ -1,1 +1,3 @@
-give them Blah.enc and rotate.py and the key (141975642814) ask them to find the flag yay
+Your friend send you these files and said that the key is 141975642814...
+
+What could the mean?

