@@ -1,0 +1,3 @@
+md5 what_is_the_md5.txt
+
+stuyctf{f21c0afc0217e05852bc58febd2b8aa5}

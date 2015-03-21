@@ -1,0 +1,5 @@
+What is the md5 hash of the following file:
+
+<a href="/problem_data/what_is_the_md5.txt">what_is_the_md5.txt</a>
+
+Remember to put the md5 in the correct format (stuyctf{XXXXXXXXXXXXXXXXXXXX})
