@@ -1,0 +1,1 @@
+All characters are lowercase! This should decrease the number of hashes to check.

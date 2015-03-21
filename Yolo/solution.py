@@ -15,5 +15,4 @@ for i in range(0 , 100):
     else:
         flagchars.append(received)
 
-print flagchars[0].replace(r'\x08 \x08' , "").replace(r'\n' , "").replace("swag"
-        , "").split("flag: ")[1]
+print flagchars[0].replace(r'\x08 \x08' , "").replace(r'\n' , "").replace("swag", "").split("flag: ")[1]

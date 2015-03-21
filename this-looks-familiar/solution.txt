@@ -1,0 +1,3 @@
+Change the false to a true. Aka #f -> #t
+
+stuyctf{racket_i$_pr3tty_kewl}

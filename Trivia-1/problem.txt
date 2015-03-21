@@ -1,2 +1,1 @@
-In Unix based system, which command searches through files for a string and
-outputs all the lines that contain the specified string?
+In Unix based system, which command searches through files for a string and outputs all the lines that contain the specified string?

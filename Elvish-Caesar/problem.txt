@@ -1,4 +1,1 @@
-<a href="/Elvish-Caesar/release/elvish.png">
-
-Hint:
-YOU SHALL NOT PASS
+<img src="/problem_data/elvish.png" />

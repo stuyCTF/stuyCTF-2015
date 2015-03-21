@@ -1,2 +1,1 @@
-HiPS
-Not this image again!
+<img src="/problem_data/flag.jpg" />

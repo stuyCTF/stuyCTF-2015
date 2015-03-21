@@ -1,0 +1,3 @@
+Where is the flag?
+
+nc server.stuyctf.com 12345

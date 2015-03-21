@@ -1,6 +1,1 @@
-Your intercepted this encrypted file on an IRC channel.... What could it
-contain?
-
-Hint:
-1. It was written in English
-2. This is encrypted with a substitution cipher.
+You intercepted this encrypted file on an IRC channel.... What could it contain?
