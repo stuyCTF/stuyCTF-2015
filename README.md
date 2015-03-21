@@ -7,7 +7,8 @@ A CTF by Stuy students. For Stuy students. Made with <3 in NYC.
 
 ```
 Problem-name_POINTS/
-├── problem.txt (see the formatting in problem-sample.txt)
+├── problem.txt (see the formatting in sample-problem.txt)
+├── hint.txt (see the formatting in sample-hint.txt)
 ├── solution.txt
 ├── release/ (anything given to the players)
 │   ├── obfuscated_code.pyc
