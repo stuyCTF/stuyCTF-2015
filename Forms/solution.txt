@@ -1,0 +1,3 @@
+Input -19827747736161128312837161661727773716166727272616149001823847 as the PIN and you should get the flag
+
+stuyctf{forms_2_easy}
