@@ -1,1 +1,1 @@
-What signal does Ctrl+C send in a vanilla bash terminal in Linux?
+What signal does Ctrl+C send in a bash terminal in Linux?
