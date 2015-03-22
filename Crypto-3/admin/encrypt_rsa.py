@@ -36,7 +36,7 @@ def generate_key():
     return (n, e, d)
 
 n, e, d = generate_key()
-rsa_encrypted = int(flag.encode("hex"), 16) ** e % n
+rsa_encrypted = pow(int(flag.encode("hex"), 16), e, n)
 
 f = open('../release/rsa.txt', 'w')
 f.write("Flag: " + hex(rsa_encrypted)[2:-1] + "\n")
