@@ -8,5 +8,5 @@ O W N F X
 M P S V L
 A Z Y D G
 
-The encrypted message: smzdodcikmodcismzd
-The decoded message:   playfairisfairplay
+The encrypted message: meegihxo{smzdodcikmodcismzd}
+The decoded message:   stuyctfx{playfairisfairplay} # Note that the x in front of stuyctf is part of playfair. If the message has an odd length, an x is placed to make it an even length
