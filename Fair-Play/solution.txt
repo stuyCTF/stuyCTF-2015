@@ -1,0 +1,12 @@
+This is just a playfair cipher with the key:
+
+thequickbrownfoxjumpsoverthelazydog
+
+T H E Q U
+I C K B R
+O W N F X
+M P S V L
+A Z Y D G
+
+The encrypted message: smzdodcikmodcismzd
+The decoded message:   playfairisfairplay
