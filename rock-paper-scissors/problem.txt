@@ -1,0 +1,3 @@
+We've uncovered a long lost computer with a message on the side that reads "Password: RockBeatsScissorsBeatsPaper". Apparently this computer was made to play a simple game of Rock, Paper, Scissors! But is it really that simple? Beat the computer to get the flag!
+
+The computer has been opened to the internet at <code>python.picoctf.com:50000</code>
