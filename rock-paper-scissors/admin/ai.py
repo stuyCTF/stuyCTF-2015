@@ -1,9 +1,10 @@
-import random
+import sys, random
 
 ROCK = 100
 PAPER = 101
 SCISSORS = 102
 toss_choices = {"r": ROCK, "p": PAPER, "s": SCISSORS}
+toss_choices_swapped = {n: t for t, n in toss_choices.items()}
 
 WIN = 1
 LOSE = 2
@@ -30,6 +31,8 @@ class AI():
             return False
 
     def check_round(self, player_toss, computer_toss):
+        if __name__ == "__main__":
+            sys.stdout.write("The computer tossed " + toss_choices_swapped[computer_toss] + "! ")
         if player_toss == computer_toss:
             return TIE
         elif player_toss == ROCK:
@@ -49,6 +52,7 @@ class AI():
                 return LOSE
         else:
             return BAD_INPUT
+        return result
 
     def choose_best(self, scores):
         if scores[ROCK] == 0 and scores[PAPER] == 0 and scores[SCISSORS] == 0:

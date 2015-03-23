@@ -1,4 +1,4 @@
-import SocketServer
+import SocketServer, errno, traceback
 from ai import *
 
 HOST = ''
@@ -11,17 +11,29 @@ FLAG = "Computers_R_N0_Match_4_Humans"
 class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
     allow_reuse_address = True
 
+    # The default handle_error is overridden to not print traceback for Broken Pipe
+    def handle_error(self, request, client_address):
+        type, err, tb = sys.exc_info()
+        if err.errno == errno.EPIPE:
+            print "Broke pipe with", client_address
+        else:
+            print "----------------------------------------"
+            print "Exception happened during processing of request from", client_address
+            traceback.print_exc()
+            print "----------------------------------------"
+
 class startrps(SocketServer.StreamRequestHandler):
 
     def handle(self):
         ip, port = self.client_address
-        print "Connection from " + str(ip) + ":" + str(port)
+        print "Connection from", self.client_address
 
         try:
             self.wfile.write("Welcome to the wonderful game of Rock, Paper, Scissors!\nPlease input the password: ")
             password = self.rfile.readline().strip()
             if (password != PASSWORD):
                 self.wfile.write("Invalid Password. Sorry you may not play this game.\n")
+                print "Kicked", self.client_address
                 return True
 
             self.wfile.write("You will be playing " + str(ROUNDS_TO_PLAY) + " rounds against the computer. Try to win at least 75% of them!\n\n")
