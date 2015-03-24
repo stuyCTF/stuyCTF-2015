@@ -1,6 +1,0 @@
-Two ways of doing this:
-1. Using gdb you'll see the loading of a bunch of characters starting from
-(0x12)($ebx) and you can set them in order and translate and find the flag.
-
-2. Using the fact that the two parameters of strcmp is flag and message, we can
-simply x/s $ebx when we break at the function.

@@ -1,0 +1,43 @@
+Let's look at the suspicious section of the objdump -d output:
+Here, we see a number of move operations, presumably into an array of some sort.
+Let's reference the ASCII table to figure out what values are being moved into
+the array. "0x75" corresponds to "u", "0x64" corresponds to "d", and so on.
+Now, all we have to do is reconstruct the string one character at a time, using
+the addresses listed to figure out where certain characters are positioned
+relative to another.
+
+8048532:       c6 44 24 1e 75          movb   $0x75,0x1e(%esp)
+8048537:       c6 44 24 27 64          movb   $0x64,0x27(%esp)
+804853c:       c6 44 24 38 6e          movb   $0x6e,0x38(%esp)
+8048541:       c6 44 24 1d 74          movb   $0x74,0x1d(%esp)
+8048546:       c6 44 24 20 63          movb   $0x63,0x20(%esp)
+804854b:       c6 44 24 2c 69          movb   $0x69,0x2c(%esp)
+8048550:       c6 44 24 21 74          movb   $0x74,0x21(%esp)
+8048555:       c6 44 24 2b 5f          movb   $0x5f,0x2b(%esp)
+804855a:       c6 44 24 2d 73          movb   $0x73,0x2d(%esp)
+804855f:       c6 44 24 28 75          movb   $0x75,0x28(%esp)
+8048564:       c6 44 24 39 64          movb   $0x64,0x39(%esp)
+8048569:       c6 44 24 1c 73          movb   $0x73,0x1c(%esp)
+804856e:       c6 44 24 30 6f          movb   $0x6f,0x30(%esp)
+8048573:       c6 44 24 31 75          movb   $0x75,0x31(%esp)
+8048578:       c6 44 24 32 72          movb   $0x72,0x32(%esp)
+804857d:       c6 44 24 37 65          movb   $0x65,0x37(%esp)
+8048582:       c6 44 24 36 69          movb   $0x69,0x36(%esp)
+8048587:       c6 44 24 24 6f          movb   $0x6f,0x24(%esp)
+804858c:       c6 44 24 1f 79          movb   $0x79,0x1f(%esp)
+8048591:       c6 44 24 25 62          movb   $0x62,0x25(%esp)
+8048596:       c6 44 24 26 6a          movb   $0x6a,0x26(%esp)
+804859b:       c6 44 24 23 7b          movb   $0x7b,0x23(%esp)
+80485a0:       c6 44 24 29 6d          movb   $0x6d,0x29(%esp)
+80485a5:       c6 44 24 2a 70          movb   $0x70,0x2a(%esp)
+80485aa:       c6 44 24 2f 79          movb   $0x79,0x2f(%esp)
+80485af:       c6 44 24 22 66          movb   $0x66,0x22(%esp)
+80485b4:       c6 44 24 33 5f          movb   $0x5f,0x33(%esp)
+80485b9:       c6 44 24 34 66          movb   $0x66,0x34(%esp)
+80485be:       c6 44 24 2e 5f          movb   $0x5f,0x2e(%esp)
+80485c3:       c6 44 24 35 72          movb   $0x72,0x35(%esp)
+80485c8:       c6 44 24 3a 7d          movb   $0x7d,0x3a(%esp)
+80485cd:       c6 44 24 3b 00          movb   $0x0,0x3b(%esp)
+
+After some hard work, we get the flag:
+stuyctf{objdump_is_your_friend}
