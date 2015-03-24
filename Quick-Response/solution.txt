@@ -1,0 +1,4 @@
+Explode the qr.gif image into individual frames, and then run a QR code reader
+on each frame to get the flag:
+
+stuyctf{QR_c0d35_R_fUn}
