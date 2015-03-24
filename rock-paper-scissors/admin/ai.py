@@ -62,7 +62,7 @@ class AI():
         for choice in scores.keys():
             if scores[choice] == max_score:
                 choices.append(choice)
-                break # This means that only one choice would be in the list <-- use it to exploit the ai's scoring system
+                #break # This means that only one choice would be in the list <-- use it to exploit the ai's scoring system
         player_next_toss = self.rng.choice(choices)
         if player_next_toss == ROCK:
             return PAPER
