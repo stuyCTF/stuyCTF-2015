@@ -1,0 +1,9 @@
+If we open up the image file in a hex editor, we soon notice that the file
+signatures are reversed! The JPEG header "FF D8" is at the end of the file, and
+the JPEG trailer "FF D9" is at the start of the file. All we have to do is
+reverse the file, so we can whip up a script like the one in gen.hs to reverse
+the contents of a file. (bytewise)
+
+After un-reversing the image, we open it up in an image viewer to find the flag
+(which is upside-down):
+stuyctf{topsy_turvy}
