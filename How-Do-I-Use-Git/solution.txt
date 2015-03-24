@@ -1,0 +1,5 @@
+Go to the patch-1 branch and look at the commit history:
+https://github.com/stuyCTF/How-do-I-use-Git/commits/patch-1
+
+Clicking on the commit with the message "Update flag.txt", we can see the flag:
+stuyctf{git_branch_be_careful}
