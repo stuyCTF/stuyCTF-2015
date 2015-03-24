@@ -59,12 +59,14 @@ class startrps(SocketServer.StreamRequestHandler):
                     self.wfile.write("Tie!\n")
                 turns += 1
 
-            if stats["win"] <= (.75 * ROUNDS_TO_PLAY):
-                self.wfile.write("\nI guess you are better than the computer. The flag is:\n")
+            if stats["win"] >= (.75 * ROUNDS_TO_PLAY):
+                self.wfile.write("\nYou won " + str(stats["win"] * 100.0 / ROUNDS_TO_PLAY) + "% of your games.\nI guess you are better than the computer. The flag is:\n")
                 self.wfile.write(FLAG + "\n")
+                print self.client_address, "beat the computer", str(stats["win"] * 100.0 / ROUNDS_TO_PLAY) + "%"
                 return True
             else:
                 self.wfile.write("That's too bad! You only won " + str(stats["win"] * 100.0 / ROUNDS_TO_PLAY) + "% of your games!\n")
+                print self.client_address, "lost to the computer", str(stats["win"] * 100.0 / ROUNDS_TO_PLAY) + "%"
                 return True
 
         except Exception, e:
