@@ -10,6 +10,8 @@ Problem-name_POINTS/
 ├── problem.txt (see the formatting in sample-problem.txt)
 ├── hint.txt (see the formatting in sample-hint.txt)
 ├── solution.txt
+├── grader.py (file to grade the user's input)
+├── weightmap.json (file for unlocking problems)
 ├── release/ (anything given to the players)
 │   ├── obfuscated_code.pyc
 │   ├── compiled_binary
