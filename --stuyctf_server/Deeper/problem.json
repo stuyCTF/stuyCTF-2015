@@ -1,0 +1,11 @@
+
+{
+    "name": "Deeper",
+    "score": 0,
+    "category": "",
+    "grader": "./Deeper/grader.py",
+    "description": "I was given a picture of a flag... But where is the flag?<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Check the file headers!<br>"
+}

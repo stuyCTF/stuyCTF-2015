@@ -1,0 +1,11 @@
+
+{
+    "name": "this-looks-familiar",
+    "score": 0,
+    "category": "",
+    "grader": "./this-looks-familiar/grader.py",
+    "description": "You are given a file that looks oddly familiar, however, you can't seem to figure out how to make it work properly. The encryption algorithm has been used to encrypt the flag, but it seems that someone messed up on the decryption algorithm. Can you figure out what's wrong and get the flag?<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Try to run the code!<br>"
+}

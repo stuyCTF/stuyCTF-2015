@@ -1,0 +1,11 @@
+
+{
+    "name": "Crypto-3",
+    "score": 0,
+    "category": "",
+    "grader": "./Crypto-3/grader.py",
+    "description": "Someone seems to have dropped this sheet of paper on the floors of Stuyvesant High School. Can you help me decipher this?<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Responsive<br>Students<br>Advancement<br><br>Note that this is a Cryptography problem.<br>"
+}

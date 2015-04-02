@@ -1,0 +1,11 @@
+
+{
+    "name": "Yolo",
+    "score": 0,
+    "category": "",
+    "grader": "./Yolo/grader.py",
+    "description": "Where is the flag?<br><br>nc server.stuyctf.com 12345<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Try saving the output!<br>"
+}

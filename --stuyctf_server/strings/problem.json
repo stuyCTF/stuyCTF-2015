@@ -1,0 +1,11 @@
+
+{
+    "name": "strings",
+    "score": 0,
+    "category": "",
+    "grader": "./strings/grader.py",
+    "description": "Where's the flag??<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "There's a flag, but where's the <b>string</b> that holds up the flag?<br>"
+}

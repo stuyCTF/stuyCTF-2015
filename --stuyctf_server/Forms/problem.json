@@ -1,0 +1,11 @@
+
+{
+    "name": "Forms",
+    "score": 0,
+    "category": "",
+    "grader": "./Forms/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Is there a way to see what is happening on the server?<br>"
+}

@@ -1,0 +1,11 @@
+
+{
+    "name": "Easy-Reverse-Engineering",
+    "score": 0,
+    "category": "",
+    "grader": "./Easy-Reverse-Engineering/grader.py",
+    "description": "Easy Reverse Engineering<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "What does `objdump -d` do?<br>"
+}

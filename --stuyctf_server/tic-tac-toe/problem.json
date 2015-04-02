@@ -1,0 +1,11 @@
+
+{
+    "name": "tic-tac-toe",
+    "score": 0,
+    "category": "",
+    "grader": "./tic-tac-toe/grader.py",
+    "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}

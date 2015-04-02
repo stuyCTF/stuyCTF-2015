@@ -1,0 +1,11 @@
+
+{
+    "name": "login-attempts",
+    "score": 0,
+    "category": "",
+    "grader": "./login-attempts/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}

@@ -1,0 +1,11 @@
+
+{
+    "name": "format-name-overflow",
+    "score": 0,
+    "category": "",
+    "grader": "./format-name-overflow/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}

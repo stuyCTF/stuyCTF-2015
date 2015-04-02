@@ -1,0 +1,11 @@
+
+{
+    "name": "git-pwn",
+    "score": 0,
+    "category": "",
+    "grader": "./git-pwn/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}

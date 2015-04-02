@@ -1,0 +1,11 @@
+
+{
+    "name": "Easy-Overflow",
+    "score": 0,
+    "category": "",
+    "grader": "./Easy-Overflow/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}
