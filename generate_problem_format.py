@@ -7,7 +7,7 @@ GRADER_FILE = "grader.py"
 WEIGHTMAP_FILE = "weightmap.json"
 RELEASE_FOLDER = "release"
 
-SERVER_FOLDER = "--stuyctf_server/"
+SERVER_FOLDER = "STUYCTF_SERVER/"
 
 try:
     shutil.rmtree(SERVER_FOLDER)
@@ -62,8 +62,8 @@ for folder in folders:
         name = problem_name,
         score = problem_score,
         grader = problem_grader,
-        description = problem_description.replace("\n","<br>"),
-        hint = problem_hint.replace("\n","<br>"),
+        description = problem_description.replace("\n","<br>").replace('"','\\"'),
+        hint = problem_hint.replace("\n","<br>").replace('"', '\\"'),
         threshold = problem_threshold,
         weightmap = problem_weightmap
     )
@@ -73,9 +73,18 @@ for folder in folders:
         f = open(SERVER_FOLDER + problem_name + "/problem.json", "w")
         f.write(problem)
         f.close()
+    except OSError, e:
+        print "Setting up problem.json...", e
+    try:
         shutil.copytree(folder + RELEASE_FOLDER, SERVER_FOLDER + problem_name + "/static/")
     except OSError, e:
-        print "Copying release folder...", e
+        #print "Copying release folder...", e
+        pass
+    try:
+        os.mkdir(SERVER_FOLDER + problem_name + "/grader")
+        shutil.copy(folder + "grader.py", SERVER_FOLDER + problem_name + "/grader")
+    except IOError, e:
+        print "Copying grader.py...", e
 
 '''
 for problem in problems:

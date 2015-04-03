@@ -7,5 +7,5 @@
     "description": "p3E1rJA0MagvLKAyAwEsnKAsMaIhsD==<br><br>Someone used rot13 on the encoding of the flag! What can we do now???<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "What kind of encoding uses "=" as padding?<br>"
+    "hint": "What kind of encoding uses \"=\" as padding?<br>"
 }
