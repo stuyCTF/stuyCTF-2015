@@ -6,13 +6,7 @@ HINT_FILE = "hint.txt"
 GRADER_FILE = "grader.py"
 WEIGHTMAP_FILE = "weightmap.json"
 RELEASE_FOLDER = "release"
-
 SERVER_FOLDER = "STUYCTF_SERVER/"
-
-try:
-    shutil.rmtree(SERVER_FOLDER)
-except:
-    pass
 
 template = """
 {{
@@ -27,37 +21,41 @@ template = """
 }}
 """
 
-files = glob.glob("./*")
-folders = []
-for name in files:
-    if not os.path.isfile(name) and not name == "./sample":
-        folders.append(name)
-
+# Remove old server folder and create a new one
+shutil.rmtree(SERVER_FOLDER, ignore_errors=True)
 os.mkdir(SERVER_FOLDER)
+
+# Get list of all folders in current directory
+folders = [f+"/" for f in glob.glob("./*") if not os.path.isfile(f) and f != "./sample"]
 
 problems = []
 for folder in folders:
-    folder += "/"
     problem_name = folder[2:folder.find("_")]
     problem_score = 0 if folder.find("_") == -1 else folder[folder.find("_")+1:]
-    try:
-        problem_description = open(folder + PROBLEM_FILE, "r").read()
-    except IOError, e:
-        print "Looking for problem file...", e
-        problem_description = ""
-    try:
-        problem_hint = open(folder + HINT_FILE, "r").read()
-    except IOError, e:
-        #print "Looking for hint file...", e
-        problem_hint = ""
-    try:
-        weightmaps = json.loads(open(folder + WEIGHTMAP_FILE, "r").read())
-        problem_threshold = weightmaps["threshold"]
-        problem_weightmap = weightmaps["weightmap"]
-    except IOError, e:
-        problem_weightmap = "{}"
-        problem_threshold = 0
+    problem_description = ""
+    problem_hint = ""
+    problem_threshold = 0
+    problem_weightmap = "{}"
     problem_grader = folder + GRADER_FILE
+    try:
+        with open(folder + PROBLEM_FILE, "r") as f:
+            problem_description = f.read()
+    except IOError, e:
+        print "Missing problem file...", e
+    try:
+        with open(folder + HINT_FILE, "r") as f:
+            problem_hint = f.read()
+    except IOError, e:
+        #print "Missing hint file...", e
+        pass
+    try:
+        with open(folder + WEIGHTMAP_FILE, "r") as f:
+            weightmaps = json.loads(f.read())
+            problem_threshold = weightmaps["threshold"]
+            problem_weightmap = weightmaps["weightmap"]
+    except IOError, e:
+        #print "Missing weightmap file...", e
+        pass
     problem = template.format(
         name = problem_name,
         score = problem_score,
@@ -70,21 +68,20 @@ for folder in folders:
     problems.append(problem)
     try:
         os.mkdir(SERVER_FOLDER + problem_name)
-        f = open(SERVER_FOLDER + problem_name + "/problem.json", "w")
-        f.write(problem)
-        f.close()
+        with open(SERVER_FOLDER + problem_name + "/problem.json", "w") as f:
+            f.write(problem)
     except OSError, e:
-        print "Setting up problem.json...", e
+        print "Error writing problem.json...", e
     try:
         shutil.copytree(folder + RELEASE_FOLDER, SERVER_FOLDER + problem_name + "/static/")
     except OSError, e:
-        #print "Copying release folder...", e
+        #print "Error copying release folder...", e
         pass
     try:
         os.mkdir(SERVER_FOLDER + problem_name + "/grader")
-        shutil.copy(folder + "grader.py", SERVER_FOLDER + problem_name + "/grader")
+        shutil.copy(problem_grader, SERVER_FOLDER + problem_name + "/grader")
     except IOError, e:
-        print "Copying grader.py...", e
+        print "Error copying grader.py...", e
 
 '''
 for problem in problems:
