@@ -30,7 +30,7 @@ template = """
 files = glob.glob("./*")
 folders = []
 for name in files:
-    if not os.path.isfile(name):
+    if not os.path.isfile(name) and not name == "./sample":
         folders.append(name)
 
 os.mkdir(SERVER_FOLDER)
@@ -48,7 +48,7 @@ for folder in folders:
     try:
         problem_hint = open(folder + HINT_FILE, "r").read()
     except IOError, e:
-        print "Looking for hint file...", e
+        #print "Looking for hint file...", e
         problem_hint = ""
     try:
         weightmaps = json.loads(open(folder + WEIGHTMAP_FILE, "r").read())
