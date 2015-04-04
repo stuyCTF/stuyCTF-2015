@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
-f = open("flag.txt" , 'r')
-flag = f.read().strip()
-f.close()
+flag = "stuyctf{why_backspace_no_werk}"
 
 while True:
     for c in flag:
