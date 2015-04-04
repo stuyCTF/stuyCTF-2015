@@ -1,8 +1,5 @@
 # Python grader file
-# Return true if flag is correct, false otherwise
+# Return True if flag is correct, False otherwise
 
-def grade(arg, key):
-    if key == "FLAG_WHATEVER_THIS_SHOULD_BE":
-        return True
-    else:
-        return False
+def grade(key):
+    return key == "FLAG_WHATEVER_THIS_SHOULD_BE"

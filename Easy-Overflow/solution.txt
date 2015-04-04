@@ -4,3 +4,5 @@ is what we will use for this problem. We know that password is only supposed to
 contain 30 chars, so we fill those up with A's or any other garbage char of your
 choice, then we put in a C, with the ascii value of 67 to overflow into secret.
 And with the shell we simply cat flag.
+
+stuyctf{that_was_easy}
