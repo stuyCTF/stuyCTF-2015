@@ -11,3 +11,5 @@ python -c "print 'A'*32 + '%x.%x.%x.%s'" | ./a.out
 First, overflow the 32 char name buffer, and then pop values off the stack using
 the %x string formatting character until you get to the pointer for the flag, on
 which you use the %s formatting character to print the flag.
+
+stuyctf{0V3rfl0w_format_string_l34k}
