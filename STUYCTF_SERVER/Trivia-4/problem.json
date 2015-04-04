@@ -7,5 +7,5 @@
     "description": "Hey! My friend has a Spelling Bee competition coming up and he needs to know how many words he needs to memorize. Here is the list of words: <a href=\"/problem_data/dictionary.txt\">dictionary.txt</a><br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "The flag is in the format <code>stuyctf{NUMBER_OF_WORDS}</code>.<br>"
+    "hint": "Is there a shell command to count the number of words in a file?<br>The flag is in the format <code>stuyctf{NUMBER_OF_WORDS}</code>.<br>"
 }
