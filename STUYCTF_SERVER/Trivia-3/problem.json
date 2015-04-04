@@ -7,5 +7,5 @@
     "description": "What are the two most common transport layer protocols used today?<br>Your answer should be in the format: `PROTOCOL,PROTOCOL`<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": ""
+    "hint": "The flag does not follow the regular format.<br>"
 }

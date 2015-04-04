@@ -1,0 +1,11 @@
+
+{
+    "name": "STUYCTF",
+    "score": SERVER/,
+    "category": "",
+    "grader": "./STUYCTF_SERVER/grader.py",
+    "description": "",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": ""
+}
