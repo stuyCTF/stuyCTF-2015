@@ -25,8 +25,9 @@ template = """
 shutil.rmtree(SERVER_FOLDER, ignore_errors=True)
 os.mkdir(SERVER_FOLDER)
 
+EXCLUDE_DIRS = ["./sample", "./STUYCTF_SERVER"]
 # Get list of all folders in current directory
-folders = [f+"/" for f in glob.glob("./*") if not os.path.isfile(f) and f != "./sample"]
+folders = [f+"/" for f in glob.glob("./*") if not os.path.isfile(f) and f not in EXCLUDE_DIRS]
 
 problems = []
 for folder in folders:
