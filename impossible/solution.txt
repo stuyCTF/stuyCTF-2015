@@ -15,3 +15,4 @@ single backslashes, and the result will be our flag.
 
 Instead of `print flag`, you could also run `x/s $ebx` to print the value pointed
 to by the ebx register as a string, which is the flag.
+stuyctf{/\\|\\|YT|-|1|\\|G5P0551813}

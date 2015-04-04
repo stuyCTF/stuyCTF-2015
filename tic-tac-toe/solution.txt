@@ -12,3 +12,5 @@ For some reason when you send in the hex characters 09 - 0d, the score is not
 modified. Therefore, we can't make it a requirement to get a score in the range
 of 9 - 13. Any ideas on why this happens? For now, we'll make the score
 requirement 15.
+
+stuyctf{who_said_this_is_not_winnable}

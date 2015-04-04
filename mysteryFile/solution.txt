@@ -1,3 +1,4 @@
 using the key provided and rotate.py, write something like solution.py,
 decoded the Blah.enc... If you inspect it it looks suspiciously like a java
 class file, so you rename it Blah.class. java Blah prints out the flag yay
+stuyctf{such_s3cret_s0_c1a55y}

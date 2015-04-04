@@ -6,7 +6,7 @@ PORT = 50000
 
 ROUNDS_TO_PLAY = 200
 PASSWORD = "RockBeatsScissorsBeatsPaper"
-FLAG = "Computers_R_N0_Match_4_Humans"
+FLAG = "stuyctf{Computers_R_N0_Match_4_Humans}"
 
 class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
     allow_reuse_address = True

@@ -40,3 +40,6 @@ Incorrect!
 Attempt 2 of 3.
 Username: Entry failed. Using randomly generated username.
 Password for qugQhSFxy5CBBx2srVq93cY3WBjebCJrDXfFKZBp2A : Incorrect!
+
+Flag:
+EVAL_DEM_LOCALS_OTP_REKT

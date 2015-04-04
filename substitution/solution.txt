@@ -1,2 +1,4 @@
 It is frequency analysis... Substitute e first, then try to make sense of the
 English, or be cheap and use http://www.quipqiup.com/index.php
+
+stuyctf{the_3nd_0f_pr1vacy}

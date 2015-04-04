@@ -16,3 +16,4 @@ for i in range(0, 4):
     output = binascii.unhexlify('%x' % n)
 
 print output
+#stuyctf{morse_code_is_not_binary}
