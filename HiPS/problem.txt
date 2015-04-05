@@ -1,1 +1,1 @@
-<img src="/problem-static/HiPS/flag.jpg" />
+<img src="/problem-static/HiPS/flag.jpg" style="width:40%;" />

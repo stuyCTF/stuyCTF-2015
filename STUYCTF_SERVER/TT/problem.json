@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./TT/grader.py",
-    "description": "This image file appears to be corrupted; can you figure out what's wrong?<br><br><img src=\"/problem-static/TT/tt.jpg\" /><br>",
+    "description": "This image file appears to be corrupted; can you figure out what's wrong?<br><br>Download the <a href=\"/problem-static/TT/tt.jpg\">image</a>!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "What kind of file is this?<br>"

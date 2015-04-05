@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Strings/grader.py",
-    "description": "Where's the flag??<br><br><img src=\"/problem-static/Strings/red-flag-pointer.jpg\" /><br>",
+    "description": "Where's the flag??<br><br><img src=\"/problem-static/Strings/red-flag-pointer.jpg\" style=\"width:40%;\" /><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "There's a flag, but where's the <b>string</b> that holds up the flag?<br>"
