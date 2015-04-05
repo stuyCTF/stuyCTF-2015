@@ -7,5 +7,5 @@
     "description": "What signal does Ctrl+C send in a bash terminal in Linux?<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "Remember the flag format!<br>"
+    "hint": "Remember the flag format! <code>stuyctf{ANSWER_HERE}</code><br>"
 }

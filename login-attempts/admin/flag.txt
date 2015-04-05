@@ -1,0 +1,1 @@
+stuyctf{EVAL_DEM_LOCALS_OTP_REKT}

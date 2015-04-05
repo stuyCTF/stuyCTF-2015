@@ -7,5 +7,5 @@
     "description": "In Unix based system, which command searches through files for a string and outputs all the lines that contain the specified string?<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "Remember the flag format!<br>"
+    "hint": "Remember the flag format! <code>stuyctf{ANSWER_HERE}</code><br>"
 }

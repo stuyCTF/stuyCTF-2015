@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Large-Numbers/grader.py",
-    "description": "Large Numbers<br><br>This one's easy. What's the sum of the digits of the first fibonacci number with 300000 digits?<br>",
+    "description": "This one's easy. What's the sum of the digits of the first fibonacci number with 300000 digits?<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "The flag is just the solution! (i.e. It doesn't follow the regular format.)<br>"
