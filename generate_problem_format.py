@@ -36,7 +36,7 @@ for folder in folders:
     problem_description = ""
     problem_hint = ""
     problem_threshold = 0
-    problem_weightmap = "{}"
+    problem_weightmap = {}
     problem_grader = folder + GRADER_FILE
     try:
         with open(folder + PROBLEM_FILE, "r") as f:
@@ -64,7 +64,7 @@ for folder in folders:
         description = problem_description.replace("\n","<br>").replace('"','\\"'),
         hint = problem_hint.replace("\n","<br>").replace('"', '\\"'),
         threshold = problem_threshold,
-        weightmap = problem_weightmap
+        weightmap = json.dumps(problem_weightmap)
     )
     problems.append(problem)
     try:
