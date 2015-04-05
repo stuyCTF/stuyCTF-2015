@@ -1,9 +1,9 @@
 
 {
-    "name": "impossible",
+    "name": "Impossible",
     "score": 0,
     "category": "",
-    "grader": "./impossible/grader.py",
+    "grader": "./Impossible/grader.py",
     "description": "impossible<br><br>This is impossible.<br>",
     "threshold": 0,
     "weightmap": {},

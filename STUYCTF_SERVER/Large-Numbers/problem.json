@@ -1,6 +1,6 @@
 
 {
-    "name": "Large-Numbers",
+    "name": "Large Numbers",
     "score": 0,
     "category": "",
     "grader": "./Large-Numbers/grader.py",

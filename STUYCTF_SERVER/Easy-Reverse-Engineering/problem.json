@@ -1,6 +1,6 @@
 
 {
-    "name": "Easy-Reverse-Engineering",
+    "name": "Easy Reverse Engineering",
     "score": 0,
     "category": "",
     "grader": "./Easy-Reverse-Engineering/grader.py",

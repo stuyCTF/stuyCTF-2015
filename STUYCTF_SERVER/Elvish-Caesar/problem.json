@@ -1,6 +1,6 @@
 
 {
-    "name": "Elvish-Caesar",
+    "name": "Elvish Caesar",
     "score": 0,
     "category": "",
     "grader": "./Elvish-Caesar/grader.py",

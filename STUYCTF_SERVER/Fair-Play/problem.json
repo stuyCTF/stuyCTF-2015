@@ -1,6 +1,6 @@
 
 {
-    "name": "Fair-Play",
+    "name": "Fair Play",
     "score": 0,
     "category": "",
     "grader": "./Fair-Play/grader.py",

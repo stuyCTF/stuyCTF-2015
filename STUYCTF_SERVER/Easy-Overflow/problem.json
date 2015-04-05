@@ -1,6 +1,6 @@
 
 {
-    "name": "Easy-Overflow",
+    "name": "Easy Overflow",
     "score": 0,
     "category": "",
     "grader": "./Easy-Overflow/grader.py",

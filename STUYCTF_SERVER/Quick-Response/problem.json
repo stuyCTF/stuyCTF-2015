@@ -1,6 +1,6 @@
 
 {
-    "name": "Quick-Response",
+    "name": "Quick Response",
     "score": 0,
     "category": "",
     "grader": "./Quick-Response/grader.py",

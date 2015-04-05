@@ -1,6 +1,6 @@
 
 {
-    "name": "Crypto-1",
+    "name": "Crypto 1",
     "score": 0,
     "category": "",
     "grader": "./Crypto-1/grader.py",

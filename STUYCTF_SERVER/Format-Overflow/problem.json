@@ -1,9 +1,9 @@
 
 {
-    "name": "format-name-overflow",
+    "name": "Format Overflow",
     "score": 0,
     "category": "",
-    "grader": "./format-name-overflow/grader.py",
+    "grader": "./Format-Overflow/grader.py",
     "description": "",
     "threshold": 0,
     "weightmap": {},

@@ -1,6 +1,6 @@
 
 {
-    "name": "Trivia-1",
+    "name": "Trivia 1",
     "score": 0,
     "category": "",
     "grader": "./Trivia-1/grader.py",

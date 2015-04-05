@@ -58,7 +58,7 @@ for folder in folders:
         #print "Missing weightmap file...", e
         pass
     problem = template.format(
-        name = problem_name,
+        name = problem_name.replace("-"," "),
         score = problem_score,
         grader = problem_grader,
         description = problem_description.replace("\n","<br>").replace('"','\\"'),

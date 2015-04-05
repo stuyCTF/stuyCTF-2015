@@ -1,9 +1,9 @@
 
 {
-    "name": "strings",
+    "name": "Strings",
     "score": 0,
     "category": "",
-    "grader": "./strings/grader.py",
+    "grader": "./Strings/grader.py",
     "description": "Where's the flag??<br>",
     "threshold": 0,
     "weightmap": {},

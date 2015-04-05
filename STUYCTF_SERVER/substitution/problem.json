@@ -1,9 +1,9 @@
 
 {
-    "name": "substitution",
+    "name": "Substitution",
     "score": 0,
     "category": "",
-    "grader": "./substitution/grader.py",
+    "grader": "./Substitution/grader.py",
     "description": "You intercepted this encrypted file on an IRC channel.... What could it contain?<br>",
     "threshold": 0,
     "weightmap": {},
