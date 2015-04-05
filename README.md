@@ -3,7 +3,15 @@ stuyCTF
 
 A CTF by Stuy students. For Stuy students. Made with <3 in NYC.
 
+## Deployment
+
+1. Make sure to have a copy of [the stuyCTF Platform](https://github.com/stuyCTF/stuyCTF-Platform) in the same parent directory as this folder
+2. Run `./server-setup.sh`
+3. Go to the stuyCTF Platform directory and follow the instructions to run the server
+
 ## Problem Directory Layout
+
+Please use `./problem-init.sh PROBLEM_NAME` to create problems!
 
 ```
 Problem-name_POINTS/
