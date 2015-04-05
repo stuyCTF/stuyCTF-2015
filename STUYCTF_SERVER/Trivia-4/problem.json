@@ -1,7 +1,7 @@
 
 {
     "name": "Trivia 4",
-    "score": 0,
+    "score": 20,
     "category": "",
     "grader": "./Trivia-4/grader.py",
     "description": "Hey! My friend has a Spelling Bee competition coming up and he needs to know how many words he needs to memorize.<br><br>Here is the list of words: <a href=\"/problem-static/Trivia-4/dictionary.txt\">dictionary.txt</a><br>",

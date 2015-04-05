@@ -1,7 +1,7 @@
 
 {
     "name": "Substitution",
-    "score": 0,
+    "score": 60,
     "category": "",
     "grader": "./Substitution/grader.py",
     "description": "You intercepted this <a href=\"/problem/Substitution/encrypted.enc\">encrypted file</a> on an IRC channel.... What could it contain?<br>",

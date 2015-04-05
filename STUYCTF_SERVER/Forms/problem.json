@@ -1,7 +1,7 @@
 
 {
     "name": "Forms",
-    "score": 0,
+    "score": 40,
     "category": "",
     "grader": "./Forms/grader.py",
     "description": "Looks like someone believes that their PIN is unbreakable...<br><br>Let's show them wrong!<br>",

@@ -1,7 +1,7 @@
 
 {
     "name": "Totally Not Morse",
-    "score": 0,
+    "score": 85,
     "category": "",
     "grader": "./Totally-Not-Morse/grader.py",
     "description": "I recently got a file from a friend with a lot of dashes and dots. However, he specifically said that it was \"totally NOT Morse Code\". I'm not sure what to do. Can you help?<br><br><a href=\"/problem-static/Totally-Not-Morse/not-morse-code.txt\">Here's the file.</a><br>",

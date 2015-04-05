@@ -1,9 +1,9 @@
 
 {
-    "name": "Tic Tac Toe",
+    "name": "Tic Tac Toe WIP",
     "score": 0,
     "category": "",
-    "grader": "./Tic-Tac-Toe/grader.py",
+    "grader": "./Tic-Tac-Toe-WIP/grader.py",
     "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br><br>Try to beat <a href=\"/problem-static/Tic-Tac-Toe/ttt\">this computer!</a><br>",
     "threshold": 0,
     "weightmap": {},

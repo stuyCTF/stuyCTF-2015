@@ -1,7 +1,7 @@
 
 {
     "name": "Strings",
-    "score": 0,
+    "score": 35,
     "category": "",
     "grader": "./Strings/grader.py",
     "description": "Where's the flag??<br><br><img src=\"/problem-static/Strings/red-flag-pointer.jpg\" style=\"width:40%;\" /><br>",

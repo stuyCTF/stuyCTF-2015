@@ -1,7 +1,7 @@
 
 {
     "name": "TT",
-    "score": 0,
+    "score": 75,
     "category": "",
     "grader": "./TT/grader.py",
     "description": "This image file appears to be corrupted; can you figure out what's wrong?<br><br>Download the <a href=\"/problem-static/TT/tt.jpg\">image</a>!<br>",

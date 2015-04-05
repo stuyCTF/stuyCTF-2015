@@ -1,7 +1,7 @@
 
 {
     "name": "HiPS",
-    "score": 0,
+    "score": 50,
     "category": "",
     "grader": "./HiPS/grader.py",
     "description": "<img src=\"/problem-static/HiPS/flag.jpg\" style=\"width:40%;\" /><br>",

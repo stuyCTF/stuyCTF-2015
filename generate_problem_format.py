@@ -38,7 +38,7 @@ for folder in folders:
     problem_hint = ""
     problem_threshold = 0
     problem_weightmap = {}
-    problem_grader = folder + GRADER_FILE
+    problem_grader = folder[:folder.find("_")] + '/' + GRADER_FILE
     try:
         with open(folder + PROBLEM_FILE, "r") as f:
             problem_description = f.read()
@@ -83,7 +83,7 @@ for folder in folders:
         pass
     try:
         os.mkdir(SERVER_FOLDER + problem_name + "/grader")
-        shutil.copy(problem_grader, SERVER_FOLDER + problem_name + "/grader")
+        shutil.copy(folder + GRADER_FILE, SERVER_FOLDER + problem_name + "/grader")
     except IOError, e:
         print "Error copying grader.py...", e
 

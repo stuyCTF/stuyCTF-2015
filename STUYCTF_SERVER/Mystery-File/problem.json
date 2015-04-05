@@ -1,7 +1,7 @@
 
 {
     "name": "Mystery File",
-    "score": 0,
+    "score": 100,
     "category": "",
     "grader": "./Mystery-File/grader.py",
     "description": "Your friend sent you these files and said that the key is 141975642814...<br><br>What could that mean?<br><br>This <a href=\"/problem-static/Mystery-File/package.zip\">Package</a> is yours!<br>",

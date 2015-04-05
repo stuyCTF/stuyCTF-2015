@@ -1,7 +1,7 @@
 
 {
     "name": "How Do I Use Git",
-    "score": 0,
+    "score": 30,
     "category": "",
     "grader": "./How-Do-I-Use-Git/grader.py",
     "description": "https://github.com/stuyCTF/How-do-I-use-Git<br>",

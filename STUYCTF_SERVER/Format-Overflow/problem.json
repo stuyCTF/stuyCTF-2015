@@ -1,7 +1,7 @@
 
 {
     "name": "Format Overflow",
-    "score": 0,
+    "score": 90,
     "category": "",
     "grader": "./Format-Overflow/grader.py",
     "description": "Combination of two exploits! This should be secure :)<br><br><a href=\"/problem-static/Format-Overflow/main.c\">Source Code</a><br>",

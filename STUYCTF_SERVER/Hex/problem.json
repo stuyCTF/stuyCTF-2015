@@ -1,7 +1,7 @@
 
 {
     "name": "Hex",
-    "score": 0,
+    "score": 15,
     "category": "",
     "grader": "./Hex/grader.py",
     "description": "737475796374667b68657861646563696d616c5f69735f656173797d<br>",

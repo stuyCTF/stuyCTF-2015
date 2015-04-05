@@ -1,7 +1,7 @@
 
 {
     "name": "Easy Overflow",
-    "score": 0,
+    "score": 60,
     "category": "",
     "grader": "./Easy-Overflow/grader.py",
     "description": "Can you overflow?<br>",

@@ -1,7 +1,7 @@
 
 {
     "name": "Quick Response",
-    "score": 0,
+    "score": 50,
     "category": "",
     "grader": "./Quick-Response/grader.py",
     "description": "How fast are your reflexes? ;)<br><br><img src=\"/problem-static/Quick-Response/qr.gif\" /><br>",

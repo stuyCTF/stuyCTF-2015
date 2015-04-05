@@ -1,7 +1,7 @@
 
 {
     "name": "Impossible",
-    "score": 0,
+    "score": 100,
     "category": "",
     "grader": "./Impossible/grader.py",
     "description": "This is impossible.<br>",

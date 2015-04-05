@@ -1,7 +1,7 @@
 
 {
     "name": "Login Attempts",
-    "score": 0,
+    "score": 80,
     "category": "",
     "grader": "./Login-Attempts/grader.py",
     "description": "Attempt to login!<br>",

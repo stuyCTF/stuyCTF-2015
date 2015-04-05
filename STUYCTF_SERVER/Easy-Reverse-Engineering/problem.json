@@ -1,11 +1,11 @@
 
 {
     "name": "Easy Reverse Engineering",
-    "score": 0,
+    "score": 75,
     "category": "",
     "grader": "./Easy-Reverse-Engineering/grader.py",
     "description": "Is the flag hidden somewhere in the binary?<br><br>Reverse engineer the <a href=\"/problem-static/Easy-Reverse-Engineering/PassCheck\">PassCheck</a>!<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "What does `objdump -d` do?<br>"
+    "hint": "What does <code>objdump -d</code> do?<br>"
 }

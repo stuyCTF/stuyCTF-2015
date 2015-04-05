@@ -1,7 +1,7 @@
 
 {
     "name": "Elvish Caesar",
-    "score": 0,
+    "score": 50,
     "category": "",
     "grader": "./Elvish-Caesar/grader.py",
     "description": "<img src=\"/problem-static/Elvish-Caesar/elvish.png\" /><br>",

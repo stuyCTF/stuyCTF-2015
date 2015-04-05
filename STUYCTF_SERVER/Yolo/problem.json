@@ -1,7 +1,7 @@
 
 {
     "name": "Yolo",
-    "score": 0,
+    "score": 60,
     "category": "",
     "grader": "./Yolo/grader.py",
     "description": "Where is the flag?<br><br>nc server.stuyctf.com 12345<br>",

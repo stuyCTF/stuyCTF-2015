@@ -1,7 +1,7 @@
 
 {
     "name": "Crypto 2",
-    "score": 0,
+    "score": 20,
     "category": "",
     "grader": "./Crypto-2/grader.py",
     "description": "p3E1rJA0MagvLKAyAwEsnKAsMaIhsD==<br><br>Someone used rot13 on the encoding of the flag! What can we do now???<br>",

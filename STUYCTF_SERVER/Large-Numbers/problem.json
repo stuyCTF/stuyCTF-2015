@@ -1,7 +1,7 @@
 
 {
     "name": "Large Numbers",
-    "score": 0,
+    "score": 70,
     "category": "",
     "grader": "./Large-Numbers/grader.py",
     "description": "This one's easy. What's the sum of the digits of the first fibonacci number with 300000 digits?<br>",

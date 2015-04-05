@@ -1,7 +1,7 @@
 
 {
     "name": "Crypto 1",
-    "score": 0,
+    "score": 10,
     "category": "",
     "grader": "./Crypto-1/grader.py",
     "description": "What is the md5 hash of the following file:<br><br><a href=\"/problem-static/Crypto-1/what_is_the_md5.txt\">what_is_the_md5.txt</a><br><br>Remember to put the md5 in the correct format (stuyctf{XXXXXXXXXXXXXXXXXXXX})<br>",
