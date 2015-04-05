@@ -1,1 +1,3 @@
-Hey! My friend has a Spelling Bee competition coming up and he needs to know how many words he needs to memorize. Here is the list of words: <a href="/problem_data/dictionary.txt">dictionary.txt</a>
+Hey! My friend has a Spelling Bee competition coming up and he needs to know how many words he needs to memorize.
+
+Here is the list of words: <a href="/problem-static/Trivia-4/dictionary.txt">dictionary.txt</a>

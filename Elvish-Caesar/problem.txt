@@ -1,1 +1,1 @@
-<img src="/problem_data/elvish.png" />
+<img src="/problem-static/Elvish-Caesar/elvish.png" />

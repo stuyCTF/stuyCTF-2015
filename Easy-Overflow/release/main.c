@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 
-void giveShell() {
-    gid_t gid = getgid();
-    setresgid(gid, gid, gid);
-    system("/bin/sh -i");
+char *flag = "stuyctf{that_was_easy}";
+
+void giveFlag() {
+    printf("%s\n", flag);
 }
 
 int main() {
@@ -15,7 +14,7 @@ int main() {
     printf("Welcome, please enter your password: \n");
     scanf("%s", password);
     if (secret == 67) {
-        giveShell();
+        giveFlag();
         return 0;
     }
     else {

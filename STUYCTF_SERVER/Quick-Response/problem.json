@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Quick-Response/grader.py",
-    "description": "Quick Response<br><br>How fast are your reflexes? ;)<br>",
+    "description": "How fast are your reflexes? ;)<br><br><img src=\"/problem-static/Quick-Response/qr.gif\" /><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "Does this REALLY need a hint? ;)<br>"

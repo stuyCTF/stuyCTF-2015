@@ -1,0 +1,1 @@
+http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description

@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Totally-Not-Morse/grader.py",
-    "description": "I recently got a file from a friend with a lot of dashes and dots. However, he specifically said that it was \"totally NOT Morse Code\". I'm not sure what to do. Can you help?<br><br><a href=\"/problem_data/not-morse-code.txt\">Here's the file.</a><br>",
+    "description": "I recently got a file from a friend with a lot of dashes and dots. However, he specifically said that it was \"totally NOT Morse Code\". I'm not sure what to do. Can you help?<br><br><a href=\"/problem-static/Totally-Not-Morse/not-morse-code.txt\">Here's the file.</a><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "My friend enjoys different number bases, especially two.<br>"

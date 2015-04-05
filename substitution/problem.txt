@@ -1,1 +1,1 @@
-You intercepted this encrypted file on an IRC channel.... What could it contain?
+You intercepted this <a href="/problem/Substitution/encrypted.enc">encrypted file</a> on an IRC channel.... What could it contain?

@@ -1,0 +1,3 @@
+Or is it impossible? Is there a way to view the decrypted flag?
+
+Ever heard of <code>gdb</code>?

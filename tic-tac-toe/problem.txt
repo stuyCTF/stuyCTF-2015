@@ -1,1 +1,3 @@
 It is often said that computers have perfected the games of tic-tac-toe... Is that really so?
+
+Try to beat <a href="/problem-static/Tic-Tac-Toe/ttt">this computer!</a>

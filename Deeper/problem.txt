@@ -1,1 +1,3 @@
 I was given a picture of a flag... But where is the flag?
+
+<img src="/problem-static/Deeper/findtheflag.png" />

@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Crypto-3/grader.py",
-    "description": "Someone seems to have dropped this sheet of paper on the floors of Stuyvesant High School. Can you help me decipher this?<br>",
+    "description": "Someone seems to have dropped this sheet of paper on the floors of Stuyvesant High School. Can you help me decipher this?<br><br><a href=\"/problem-static/Crypto-3/rsa.txt\">Paper</a><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "Responsive<br>Students<br>Advancement<br><br>Note that this is a Cryptography problem.<br>"

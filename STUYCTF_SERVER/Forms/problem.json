@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Forms/grader.py",
-    "description": "",
+    "description": "Looks like someone believes that their PIN is unbreakable...<br><br>Let's show them wrong!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "Is there a way to see what is happening on the server?<br>"

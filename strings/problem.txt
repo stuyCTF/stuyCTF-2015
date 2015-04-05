@@ -1,1 +1,3 @@
 Where's the flag??
+
+<img src="/problem-static/Strings/red-flag-pointer.jpg" />

@@ -1,1 +1,3 @@
-Easy Reverse Engineering
+Is the flag hidden somewhere in the binary?
+
+Reverse engineer the <a href="/problem-static/Easy-Reverse-Engineering/PassCheck">PassCheck</a>!

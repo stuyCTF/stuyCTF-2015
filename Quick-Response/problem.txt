@@ -1,3 +1,3 @@
-Quick Response
-
 How fast are your reflexes? ;)
+
+<img src="/problem-static/Quick-Response/qr.gif" />

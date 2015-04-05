@@ -1,3 +1,3 @@
 I recently got a file from a friend with a lot of dashes and dots. However, he specifically said that it was "totally NOT Morse Code". I'm not sure what to do. Can you help?
 
-<a href="/problem_data/not-morse-code.txt">Here's the file.</a>
+<a href="/problem-static/Totally-Not-Morse/not-morse-code.txt">Here's the file.</a>

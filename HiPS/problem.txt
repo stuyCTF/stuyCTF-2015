@@ -1,1 +1,1 @@
-<img src="/problem_data/flag.jpg" />
+<img src="/problem-static/HiPS/flag.jpg" />

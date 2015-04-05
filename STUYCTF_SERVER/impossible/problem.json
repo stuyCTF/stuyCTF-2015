@@ -4,8 +4,8 @@
     "score": 0,
     "category": "",
     "grader": "./Impossible/grader.py",
-    "description": "impossible<br><br>This is impossible.<br>",
+    "description": "This is impossible.<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": ""
+    "hint": "Or is it impossible? Is there a way to view the decrypted flag?<br><br>Ever heard of <code>gdb</code>?<br>"
 }

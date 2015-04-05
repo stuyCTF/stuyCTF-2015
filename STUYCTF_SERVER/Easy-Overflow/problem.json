@@ -4,8 +4,8 @@
     "score": 0,
     "category": "",
     "grader": "./Easy-Overflow/grader.py",
-    "description": "",
+    "description": "Can you overflow?<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": ""
+    "hint": "http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description<br>"
 }

@@ -1,1 +1,3 @@
 You are given a file that looks oddly familiar, however, you can't seem to figure out how to make it work properly. The encryption algorithm has been used to encrypt the flag, but it seems that someone messed up on the decryption algorithm. Can you figure out what's wrong and get the flag?
+
+Oh help us figure out what <a href="/problem-static/This-Looks-Familiar/familiar.code">this code</a> does!

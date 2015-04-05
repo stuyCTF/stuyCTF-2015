@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Easy-Reverse-Engineering/grader.py",
-    "description": "Easy Reverse Engineering<br>",
+    "description": "Is the flag hidden somewhere in the binary?<br><br>Reverse engineer the <a href=\"/problem-static/Easy-Reverse-Engineering/PassCheck\">PassCheck</a>!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "What does `objdump -d` do?<br>"

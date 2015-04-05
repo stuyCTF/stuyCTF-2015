@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Mystery-File/grader.py",
-    "description": "Your friend send you these files and said that the key is 141975642814...<br><br>What could the mean?<br>",
+    "description": "Your friend sent you these files and said that the key is 141975642814...<br><br>What could that mean?<br><br>This <a href=\"/problem-static/Mystery-File/package.zip\">Package</a> is yours!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": ""

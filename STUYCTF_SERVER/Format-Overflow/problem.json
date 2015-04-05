@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Format-Overflow/grader.py",
-    "description": "",
+    "description": "Combination of two exploits! This should be secure :)<br><br><a href=\"/problem-static/Format-Overflow/main.c\">Source Code</a><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": ""

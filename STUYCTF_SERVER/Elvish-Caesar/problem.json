@@ -4,7 +4,7 @@
     "score": 0,
     "category": "",
     "grader": "./Elvish-Caesar/grader.py",
-    "description": "<img src=\"/problem_data/elvish.png\" /><br>",
+    "description": "<img src=\"/problem-static/Elvish-Caesar/elvish.png\" /><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "YOU SHALL NOT PASS<br>"
