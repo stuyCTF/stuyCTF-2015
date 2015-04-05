@@ -31,8 +31,9 @@ folders = [f+"/" for f in glob.glob("./*") if not os.path.isfile(f) and f not in
 
 problems = []
 for folder in folders:
+    # Problem name format: PROBLEM-NAME_SCORE
     problem_name = folder[2:folder.find("_")]
-    problem_score = 0 if folder.find("_") == -1 else folder[folder.find("_")+1:]
+    problem_score = 0 if folder.find("_") == -1 else folder[folder.find("_")+1:-1]
     problem_description = ""
     problem_hint = ""
     problem_threshold = 0
