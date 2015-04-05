@@ -1,0 +1,5 @@
+{
+    "threshold": 2,
+    "weightmap": {"Crypto-1" : 1,
+                  "Crypto-2" : 1}
+}

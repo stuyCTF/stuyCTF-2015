@@ -5,7 +5,7 @@
     "category": "",
     "grader": "./Trivia-2/grader.py",
     "description": "What signal does Ctrl+C send in a bash terminal in Linux?<br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Trivia 1": 1},
     "hint": "Remember the flag format! <code>stuyctf{ANSWER_HERE}</code><br>"
 }

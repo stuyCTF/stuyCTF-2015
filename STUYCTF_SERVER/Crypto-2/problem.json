@@ -5,7 +5,7 @@
     "category": "",
     "grader": "./Crypto-2/grader.py",
     "description": "p3E1rJA0MagvLKAyAwEsnKAsMaIhsD==<br><br>Someone used rot13 on the encoding of the flag! What can we do now???<br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Crypto 1": 1},
     "hint": "What kind of encoding uses \"=\" as padding?<br>"
 }

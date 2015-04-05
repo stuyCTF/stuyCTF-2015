@@ -5,7 +5,7 @@
     "category": "",
     "grader": "./Trivia-4/grader.py",
     "description": "Hey! My friend has a Spelling Bee competition coming up and he needs to know how many words he needs to memorize.<br><br>Here is the list of words: <a href=\"/problem-static/Trivia-4/dictionary.txt\">dictionary.txt</a><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 3,
+    "weightmap": {"Trivia 1": 1, "Trivia 3": 1, "Trivia 2": 1},
     "hint": "Is there a shell command to count the number of words in a file?<br>The flag is in the format <code>stuyctf{NUMBER_OF_WORDS}</code>.<br>"
 }

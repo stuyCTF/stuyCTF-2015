@@ -1,0 +1,4 @@
+{
+    "threshold": 3,
+    "weightmap": {"Trivia-1" : 1, "Trivia-2" : 1, "Trivia-3" : 1}
+}

@@ -53,7 +53,9 @@ for folder in folders:
         with open(folder + WEIGHTMAP_FILE, "r") as f:
             weightmaps = json.loads(f.read())
             problem_threshold = weightmaps["threshold"]
-            problem_weightmap = weightmaps["weightmap"]
+            # Convert dashes "-" to spaces " " for later pid (problem id) hashing
+            for key, value in weightmaps["weightmap"].iteritems():
+                problem_weightmap[key.replace('-', ' ')] = value
     except IOError, e:
         #print "Missing weightmap file...", e
         pass
