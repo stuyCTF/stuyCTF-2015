@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char *flag = "stuyctf{that_was_easy}";
+char *flag = "<REDACTED>";
 
 void giveFlag() {
     printf("%s\n", flag);
 }
 
 int main() {
-    setbuf(stdout, NULL);
     int secret = 0;
     char password[30];
     printf("Welcome, please enter your password: \n");
