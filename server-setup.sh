@@ -17,9 +17,11 @@ if [[ -d ../stuyCTF-Platform/problems/ ]]; then
     echo "Overwrite it? (y/n)"
     read ans
     if [[ $ans == "y" ]]; then
-        rm -r ../stuyCTF-Platform/problems
+        rm -rf ../stuyCTF-Platform/problems
+        mkdir -p ../stuyCTF-Platform/problems
+        cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
     fi
 else
     mkdir -p ../stuyCTF-Platform/problems
+    cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
 fi
-cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
