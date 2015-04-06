@@ -18,10 +18,9 @@ if [[ -d ../stuyCTF-Platform/problems/ ]]; then
     read ans
     if [[ $ans == "y" ]]; then
         rm -rf ../stuyCTF-Platform/problems
-        mkdir -p ../stuyCTF-Platform/problems
-        cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
+    else
+        exit
     fi
-else
-    mkdir -p ../stuyCTF-Platform/problems
-    cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
 fi
+mkdir -p ../stuyCTF-Platform/problems
+cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
