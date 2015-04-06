@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *flag = "stuyctf{0V3rfl0w_format_string_l34k}";
+char *flag = "<REDACTED>";
 
 void give_flag(int flag_length, char *flag_to_give, char *message) {
     printf("Welcome to stuyCTF! Here is your flag: \n"); // Why does this not work??
