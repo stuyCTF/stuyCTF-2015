@@ -12,15 +12,18 @@ python generate_problem_format.py
 echo "================================================================================
 Copying problems to server...
 ================================================================================"
-if [[ -d ../stuyCTF-Platform/problems/ ]]; then
-    printf "${RED}../stuyCTF-Platform/problems/ already exists!\n${RESET}"
-    echo "Overwrite it? (y/n)"
-    read ans
-    if [[ $ans == "y" ]]; then
-        rm -rf ../stuyCTF-Platform/problems
-    else
-        exit
+copy() {
+    if [[ -d ../stuyCTF-Platform/problems/ ]]; then
+        printf "${RED}../stuyCTF-Platform/problems/ already exists!\n${RESET}"
+        echo "Overwrite it? (y/n)"
+        read ans
+        if [[ $ans == "y" ]]; then
+            rm -rf ../stuyCTF-Platform/problems
+        else
+            return
+        fi
     fi
-fi
-mkdir -p ../stuyCTF-Platform/problems
-cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
+    mkdir -p ../stuyCTF-Platform/problems
+    cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
+}
+copy
