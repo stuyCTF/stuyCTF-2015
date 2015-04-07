@@ -4,7 +4,7 @@
     "score": 10,
     "category": "",
     "grader": "./Trivia-3/grader.py",
-    "description": "What are the two most common transport layer protocols used today?<br>Your answer should be in the format: `PROTOCOL,PROTOCOL`<br>",
+    "description": "What are the two most common transport layer protocols used today?<br>Your answer should be in the format: <code>PROTOCOL,PROTOCOL</code><br>",
     "threshold": 2,
     "weightmap": {"Trivia 1": 1, "Trivia 2": 1},
     "hint": "The flag does not follow the regular format.<br>"

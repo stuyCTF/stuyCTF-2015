@@ -4,8 +4,8 @@
     "score": 60,
     "category": "",
     "grader": "./Easy-Overflow/grader.py",
-    "description": "Can you overflow?<br>",
+    "description": "Can you overflow?<br><br><a href=\"/problem-static/Easy-Overflow/main-redacted.c\">Source Code</a><br><br>The computer has been opened to the internet at <code>server.stuyctf.com:12345</code><br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description<br>"
+    "hint": "<a href=\"http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description\">Hint</a><br>"
 }

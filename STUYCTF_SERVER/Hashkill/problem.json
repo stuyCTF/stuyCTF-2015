@@ -4,7 +4,7 @@
     "score": 55,
     "category": "",
     "grader": "./Hashkill/grader.py",
-    "description": "<code>76370c8b218eacfdf6a33bd4c311575a</code><br><br>is the md5 of the flag (remember the format of the flag: stuyctf{XXX_XXXXXXXXXXX_XXXXX}). It is consisted of a number between 0 and 1000, an underscore, a borough of New York City, another underscore, and a number between 10000 and 15000.<br>",
+    "description": "<code>76370c8b218eacfdf6a33bd4c311575a</code> is the md5 of the flag (remember the format of the flag: stuyctf{XXX_XXXXXXXXXXX_XXXXX}). It comprises a number between 0 and 1000, an underscore, a borough of New York City, another underscore, and a number between 10000 and 15000.<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "All characters are lowercase! This should decrease the number of hashes to check.<br>"

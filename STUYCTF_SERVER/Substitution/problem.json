@@ -7,5 +7,5 @@
     "description": "You intercepted this <a href=\"/problem/Substitution/encrypted.enc\">encrypted file</a> on an IRC channel.... What could it contain?<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "1. It was written in English<br>2. This is encrypted with a substitution cipher.<br>"
+    "hint": "It was written in English<br>"
 }

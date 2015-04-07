@@ -1,1 +1,1 @@
-http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description
+<a href="http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description">Hint</a>

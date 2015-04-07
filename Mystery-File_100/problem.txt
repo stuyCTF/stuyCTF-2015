@@ -2,4 +2,4 @@ Your friend sent you these files and said that the key is 141975642814...
 
 What could that mean?
 
-This <a href="/problem-static/Mystery-File/package.zip">Package</a> is yours!
+This <a href="/problem-static/Mystery-File/package.zip">package</a> is yours!

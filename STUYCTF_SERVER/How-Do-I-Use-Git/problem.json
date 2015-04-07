@@ -4,8 +4,8 @@
     "score": 30,
     "category": "",
     "grader": "./How-Do-I-Use-Git/grader.py",
-    "description": "https://github.com/stuyCTF/How-do-I-use-Git<br>",
+    "description": "<a href=\"https://github.com/stuyCTF/How-do-I-use-Git\">Problem</a><br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "https://help.github.com/categories/repositories/<br>"
+    "hint": "<a href=\"https://help.github.com/categories/repositories/\">Hint</a><br>"
 }

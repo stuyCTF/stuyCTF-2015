@@ -1,1 +1,3 @@
-Attempt to login!
+Attempt to log in!
+
+The computer has been opened to the internet at <code>server.stuyctf.com:49999</code>

@@ -1,1 +1,5 @@
 Can you overflow?
+
+<a href="/problem-static/Easy-Overflow/main-redacted.c">Source Code</a>
+
+The computer has been opened to the internet at <code>server.stuyctf.com:12345</code>

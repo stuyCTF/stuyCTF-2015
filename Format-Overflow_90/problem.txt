@@ -1,3 +1,5 @@
 Combination of two exploits! This should be secure :)
 
-<a href="/problem-static/Format-Overflow/main.c">Source Code</a>
+<a href="/problem-static/Format-Overflow/main-redacted.c">Source Code</a>
+
+The computer has been opened to the internet at <code>server.stuyctf.com:12346</code>
