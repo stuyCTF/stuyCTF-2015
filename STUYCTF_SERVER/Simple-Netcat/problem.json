@@ -1,0 +1,11 @@
+
+{
+    "name": "Simple Netcat",
+    "score": 15,
+    "category": "",
+    "grader": "./Simple-Netcat/grader.py",
+    "description": "The server is <code>stuyctf.me</code>.<br>The port is <code>11111</code>.<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "What is netcat and how can you use it?<br>"
+}
