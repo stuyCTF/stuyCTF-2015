@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
-char *flag = "stuyctf{that_was_easy}";
+char *flag = "<REDACTED>";
 
 void giveFlag() {
     printf("%s\n", flag);

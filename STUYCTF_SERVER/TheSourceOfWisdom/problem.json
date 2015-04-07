@@ -1,0 +1,11 @@
+
+{
+    "name": "TheSourceOfWisdom",
+    "score": 10,
+    "category": "",
+    "grader": "./TheSourceOfWisdom/grader.py",
+    "description": "Find the flag!<br><a href=\"http://www.whitehatacademy.club/index.html_stuyctf\">Problem</a><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "What's the first thing you should do when visiting a website?<br>"
+}
