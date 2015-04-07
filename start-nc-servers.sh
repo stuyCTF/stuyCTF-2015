@@ -1,11 +1,10 @@
 #!/bin/bash
 
-if [[ -x /bin/nc.traditional ]]; then
-    echo "netcat-traditional is all set up!"
+if [[ -x /usr/bin/tcpserver ]]; then
+    echo "tcpserver is all set up!"
 else
-    echo "Installing netcat-traditional...."
-    sudo apt-get install netcat-traditional
-    #sudo update-alternatives --set nc /bin/nc.traditional
+    echo "Installing ucspi-tcp...."
+    sudo apt-get install ucspi-tcp
 fi
 echo "Running servers...."
 echo "Deploying Easy-Overflow...."

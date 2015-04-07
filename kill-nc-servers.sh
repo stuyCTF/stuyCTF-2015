@@ -6,7 +6,7 @@ if [[ -f easy-overflow.pid ]]; then
     port=$(echo $line | cut -d " " -f 2)
     echo "Killing process for Easy Overflow (${pid})"
     kill -9 $pid
-    pid=$(netstat -lpn 2> /dev/null | grep "0.0.0.0:${port}" | grep -o "[0-9]*/nc" | cut -d '/' -f 1)
+    pid=$(netstat -lpn 2> /dev/null | grep "0.0.0.0:${port}" | grep -o "[0-9]*/tcpserver" | cut -d '/' -f 1)
     if [[ $pid != "" ]]; then
         echo "Closing port ${port}.... (${pid})"
         kill -9 $pid
@@ -19,7 +19,7 @@ if [[ -f format-overflow.pid ]]; then
     port=$(echo $line | cut -d " " -f 2)
     echo "Killing process for Format Overflow (${pid})"
     kill -9 $pid
-    pid=$(netstat -lpn 2> /dev/null | grep "0.0.0.0:${port}" | grep -o "[0-9]*/nc" | cut -d '/' -f 1)
+    pid=$(netstat -lpn 2> /dev/null | grep "0.0.0.0:${port}" | grep -o "[0-9]*/tcpserver" | cut -d '/' -f 1)
     if [[ $pid != "" ]]; then
         echo "Closing port ${port}.... (${pid})"
         kill -9 $pid
