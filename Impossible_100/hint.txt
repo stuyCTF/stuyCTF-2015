@@ -1,1 +1,2 @@
 Or is it impossible? Is there a way to view the decrypted flag while the program is running?
+Mind your escape characters when submitting the flag!

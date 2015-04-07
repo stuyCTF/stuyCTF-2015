@@ -7,5 +7,5 @@
     "description": "This is impossible.<br><br><a href=\"/problem-static/Impossible/main-redacted.c\">Source Code</a><br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "Or is it impossible? Is there a way to view the decrypted flag while the program is running?<br>"
+    "hint": "Or is it impossible? Is there a way to view the decrypted flag while the program is running?<br>Mind your escape characters when submitting the flag!<br>"
 }
