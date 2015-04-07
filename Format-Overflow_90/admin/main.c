@@ -11,6 +11,7 @@ void give_flag(int flag_length, char *flag_to_give, char *message) {
 }
 
 int main() {
+    setbuf(stdout, NULL);
     char message[96] = "Haha you'll never figure out the flag! :P\n";
     char name[32];
     bzero(name, 32);
