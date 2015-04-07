@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PORT=1234
+PORT=12345
 echo -e "$$ ${PORT}" > ../../easy-overflow.pid
 while true; do
-    nc -l -p $PORT -e ./easy-overflow
+    /bin/nc.traditional -l -p $PORT -e ./easy-overflow
 done
