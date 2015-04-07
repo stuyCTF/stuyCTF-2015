@@ -3,7 +3,7 @@
 # A message is also required to be returned along with the boolean
 #     Custom messages such as `return False, "OOOFFF SO CLOSE"` can be used
 
-flag = "always_view_the_source"
+flag = "stuyctf{always_view_the_source}"
 
 def grade(arg, key):
     if key == flag:
