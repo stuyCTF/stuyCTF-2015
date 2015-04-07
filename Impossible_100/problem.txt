@@ -1,3 +1,4 @@
 This is impossible.
 
+<a href="/problem-static/Impossible/impossible">Binary</a>
 <a href="/problem-static/Impossible/main-redacted.c">Source Code</a>

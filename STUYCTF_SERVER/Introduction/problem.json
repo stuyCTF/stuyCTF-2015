@@ -1,7 +1,7 @@
 
 {
     "name": "Introduction",
-    "score": 5,
+    "score": 1,
     "category": "",
     "grader": "./Introduction/grader.py",
     "description": "Welcome to stuyCTF! If this is your first Capture the Flag competition, then you're in luck! There's much to learn about computer science as you continue on.  Feel free to use the internet, and remember, Google (or Bing or DuckDuckGo) is your best friend here!<br><br>The general format for the solutions, or <i>flags</i> as we call them, are in the format stuyCTF{XXXXXXXXXXXXXX}.<br><br>The flag for this problem is <b>stuyctf{here's_a_free_flag}</b>. Have fun!<br>",

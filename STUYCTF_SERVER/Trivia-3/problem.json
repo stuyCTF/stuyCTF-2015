@@ -1,7 +1,7 @@
 
 {
     "name": "Trivia 3",
-    "score": 10,
+    "score": 15,
     "category": "",
     "grader": "./Trivia-3/grader.py",
     "description": "What are the two most common transport layer protocols used today?<br>Your answer should be in the format: <code>PROTOCOL,PROTOCOL</code><br>",
