@@ -11,7 +11,7 @@ A CTF by Stuy students. For Stuy students. Made with <3 in NYC.
 
 ## Problem Directory Layout
 
-Please use `./problem-init.sh PROBLEM_NAME` to create problems!
+Please use `./problem-init.sh PROBLEM-NAME_POINTS` to create problems!
 
 ```
 Problem-name_POINTS/
