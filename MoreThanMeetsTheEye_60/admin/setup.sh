@@ -9,7 +9,7 @@ TYPE=tcpserver
 if [[ ! -f ../../more-than-meets-the-eye.pid ]]; then
     echo -e "${PID} ${PORT} ${TYPE}" > ../../more-than-meets-the-eye.pid
     while true; do
-        if tcpserver 0.0.0.0 $PORT ./yoloswag.py 2>&1 | grep "unable to bind" > /dev/null; then
+        if tcpserver -H -R 0.0.0.0 $PORT ./yoloswag.py 2>&1 | grep "unable to bind" > /dev/null; then
             printf "${RED}ERROR (MoreThanMeetsTheEye): Port ${PORT} already in use!${RESET}\n"
             exit 1
         fi
