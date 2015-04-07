@@ -1,4 +1,4 @@
-max_number = 10 ** 299999 # Number with 300000 digits
+max_number = 10 ** 499999 # Number with 500000 digits
 
 num0 = 0
 num1 = 1

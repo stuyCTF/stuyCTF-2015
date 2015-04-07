@@ -1,0 +1,11 @@
+
+{
+    "name": "GroupRecon",
+    "score": 0,
+    "category": "",
+    "grader": "./GroupRecon/grader.py",
+    "description": "groups/1398071047179600<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "This is a recon. More notably, a web recon.<br>"
+}
