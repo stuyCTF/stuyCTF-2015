@@ -42,6 +42,15 @@ if [[ -f more-than-meets-the-eye.pid ]]; then
     kill -9 $pid && rm more-than-meets-the-eye.pid
     close_port $port $type
 fi
+if [[ -f tic-tac-toe.pid ]]; then
+    read line < tic-tac-toe.pid
+    pid=$(get_pid $line)
+    port=$(get_port $line)
+    type=$(get_type $line)
+    printf "${GREEN}Killing process for Tic Tac Toe (${pid}/${type})${RESET}\n"
+    kill -9 $pid && rm tic-tac-toe.pid
+    close_port $port $type
+fi
 if [[ -f format-overflow.pid ]]; then
     read line < format-overflow.pid
     pid=$(get_pid $line)

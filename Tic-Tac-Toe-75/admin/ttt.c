@@ -66,12 +66,20 @@ void resetBoard(char b[9]) {
 
 void playerMove(char b[9]) {
     int move = -1;
-    while (move < 0 || move > 8 || b[move] != ' ') {
-        printf("\nYour move? (pick a vacant spot) ");
-        scanf("%d", &move);
+    int ret = 0;
+    do {
+        printf("\nYour move? (pick a vacant spot numbered 0-8) ");
+        ret = scanf("%d", &move);
+        if (ret == -1) {
+            // EOF reached
+            printf("[Reached EOF]\n");
+            printf("Quitting....\n");
+            exit(0);
+        }
         clean_stdin();
         printf("\n");
     }
+    while (move < 0 || move > 8 || b[move] != ' ');
 
     b[move] = player;
 }
@@ -147,13 +155,15 @@ int game(int s, char b[9]) {
 }
 
 int main(int argc, char **argv) {
+    setbuf(stdout, NULL);
     int score = 0;
-    char name[30];
+    char name[1337];
 
-    printf("Hello! Welcome to this game of tic-tac-toe, what is your name?\n");
+    printf("Hello! Welcome to this game of tic-tac-toe, what is your name? ");
     scanf("%s", name);
 
     printf("Welcome! %s\n", name);
+    printf("Can you score 15 points on the computer?\n");
 
     while (score > -15 && score < 15) {
         resetBoard(board);
