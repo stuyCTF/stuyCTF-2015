@@ -1,17 +1,20 @@
 stuyCTF
 -------
 
-A CTF by Stuy students. For Stuy students. Made with <3 in NYC.
+A CTF by Stuy students. For Stuy students. Made with :heart: in NYC.
 
 ## Deployment
 
 1. Make sure to have a copy of [the stuyCTF Platform](https://github.com/stuyCTF/stuyCTF-Platform) in the same parent directory as this folder
 2. Run `./server-setup.sh`
 3. Go to the stuyCTF Platform directory and follow the instructions to run the server
+4. To deploy problems that provide/require a server, run the
+   `start-nc-servers.sh` script. To stop the servers, run the
+   `kill-nc-servers.sh` script.
 
 ## Problem Directory Layout
 
-Please use `./problem-init.sh PROBLEM-NAME_POINTS` to create problems!
+Please run `./problem-init.sh PROBLEM-NAME_POINTS` to create problems!
 
 ```
 Problem-name_POINTS/
