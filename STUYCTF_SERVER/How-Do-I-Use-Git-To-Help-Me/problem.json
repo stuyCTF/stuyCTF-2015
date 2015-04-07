@@ -1,0 +1,11 @@
+
+{
+    "name": "How Do I Use Git To Help Me",
+    "score": 30,
+    "category": "",
+    "grader": "./How-Do-I-Use-Git-To-Help-Me/grader.py",
+    "description": "<a href=\"https://github.com/stuyCTF/How-do-I-use-Git\">https://github.com/stuyCTF/How-do-I-use-Git</a><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "How can you find help inside a Github repository?<br>"
+}
