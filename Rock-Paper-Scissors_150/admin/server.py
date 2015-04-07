@@ -76,8 +76,8 @@ class startrps(SocketServer.StreamRequestHandler):
 
 if __name__ == "__main__":
     server = ThreadedTCPServer((HOST, PORT), startrps)
-    print "[+] Running Rock-Paper-Scissors!\n"
-    print "Password for the server is:", PASSWORD
+    #print "[+] Running Rock-Paper-Scissors!\n"
+    #print "Password for the server is:", PASSWORD
     try:
         server.serve_forever()
     except KeyboardInterrupt: # Prevent server from stopping until all clients are disconnected
