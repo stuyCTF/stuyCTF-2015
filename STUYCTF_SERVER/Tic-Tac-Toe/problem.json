@@ -1,9 +1,9 @@
 
 {
-    "name": "Tic Tac Toe 75",
-    "score": 0,
+    "name": "Tic Tac Toe",
+    "score": 75,
     "category": "",
-    "grader": "./Tic-Tac-Toe-75/grader.py",
+    "grader": "./Tic-Tac-Toe/grader.py",
     "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br><br>Try to beat this computer!<br>The computer has been opened to the internet at <code>server.stuyctf.com:12348</code><br>",
     "threshold": 0,
     "weightmap": {},
