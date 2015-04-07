@@ -42,6 +42,6 @@ function kill_problem() {
 kill_problem easy-overflow.pid "Easy Overflow"
 kill_problem more-than-meets-the-eye.pid "MoreThanMeetsTheEye"
 kill_problem tic-tac-toe.pid "Tic Tac Toe"
-kill_problem format-overflow.pid "Format Overflow"
 kill_problem login-attempts.pid "Login Attempts"
+kill_problem format-overflow.pid "Format Overflow"
 kill_problem rock-paper-scissors.pid "Rock Paper Scissors"

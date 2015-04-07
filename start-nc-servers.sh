@@ -16,9 +16,9 @@ printf "${GREEN}Deploying MoreThanMeetsTheEye....${RESET}\n"
 bash -c "cd MoreThanMeetsTheEye_60/admin/ && ./setup.sh" &
 printf "${GREEN}Deploying Tic-Tac-Toe....${RESET}\n"
 bash -c "cd Tic-Tac-Toe-75/admin/ && ./setup.sh" &
-printf "${GREEN}Deploying Format-Overflow....${RESET}\n"
-bash -c "cd Format-Overflow_90/admin/ && ./setup.sh" &
 printf "${GREEN}Deploying Login-Attempts....${RESET}\n"
 bash -c "cd Login-Attempts_80/admin/ && ./setup.sh" &
+printf "${GREEN}Deploying Format-Overflow....${RESET}\n"
+bash -c "cd Format-Overflow_90/admin/ && ./setup.sh" &
 printf "${GREEN}Deploying Rock-Paper-Scissors....${RESET}\n"
 bash -c "cd Rock-Paper-Scissors_150/admin/ && ./setup.sh" &
