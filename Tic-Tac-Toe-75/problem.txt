@@ -1,3 +1,4 @@
 It is often said that computers have perfected the games of tic-tac-toe... Is that really so?
 
-Try to beat <a href="/problem-static/Tic-Tac-Toe/ttt">this computer!</a>
+Try to beat this computer!
+The computer has been opened to the internet at <code>server.stuyctf.com:12348</code>
