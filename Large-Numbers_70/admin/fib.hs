@@ -35,7 +35,7 @@ sumDigitsConvert "" acc = acc
 sumDigitsConvert (x:xs) acc = acc `seq` sumDigitsConvert xs $ acc + valueOf x
 
 main :: IO ()
-main = print $ firstFiveHundredThousandDigitFib
+main = print $ sumDigitsConvert (show firstFiveHundredThousandDigitFib) 0
 
 {-
 
