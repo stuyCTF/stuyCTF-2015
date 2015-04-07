@@ -6,12 +6,14 @@ RESET="\033[m"
 if [[ -x /usr/bin/tcpserver ]]; then
     printf "${YELLOW}tcpserver is all set up!${RESET}\n"
 else
-    echo "${YELLOW}Installing ucspi-tcp....${RESET}\n"
+    printf "${YELLOW}Installing ucspi-tcp....${RESET}\n"
     sudo apt-get install ucspi-tcp
 fi
 printf "${GREEN}Running servers....${RESET}\n"
 printf "${GREEN}Deploying Easy-Overflow....${RESET}\n"
 bash -c "cd Easy-Overflow_60/admin/ && ./setup.sh" &
+printf "${GREEN}Deploying MoreThanMeetsTheEye....${RESET}\n"
+bash -c "cd MoreThanMeetsTheEye_60/admin/ && ./setup.sh" &
 printf "${GREEN}Deploying Format-Overflow....${RESET}\n"
 bash -c "cd Format-Overflow_90/admin/ && ./setup.sh" &
 printf "${GREEN}Deploying Login-Attempts....${RESET}\n"

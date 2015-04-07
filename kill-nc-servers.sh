@@ -33,6 +33,15 @@ if [[ -f easy-overflow.pid ]]; then
     kill -9 $pid && rm easy-overflow.pid
     close_port $port $type
 fi
+if [[ -f more-than-meets-the-eye.pid ]]; then
+    read line < more-than-meets-the-eye.pid
+    pid=$(get_pid $line)
+    port=$(get_port $line)
+    type=$(get_type $line)
+    printf "${GREEN}Killing process for MoreThanMeetsTheEye (${pid}/${type})${RESET}\n"
+    kill -9 $pid && rm more-than-meets-the-eye.pid
+    close_port $port $type
+fi
 if [[ -f format-overflow.pid ]]; then
     read line < format-overflow.pid
     pid=$(get_pid $line)

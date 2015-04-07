@@ -1,7 +1,0 @@
-Use netcat-traditional
-
-$ ncat -l -p 12345 -e yoloswag.py
-
-Don't give them source!
-
-Hint: control characters
