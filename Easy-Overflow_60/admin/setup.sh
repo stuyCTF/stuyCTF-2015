@@ -1,13 +1,7 @@
 #!/bin/bash
 
-if [[ -x /bin/nc.traditional ]]; then
-    echo "netcat-traditional is all set up!"
-else
-    echo "Installing netcat-traditional...."
-    sudo apt-get install netcat-traditional
-    sudo update-alternatives --set nc /bin/nc.traditional
-fi
-echo "Running server...."
+PORT=1234
+echo -e "$$ ${PORT}" > ../../easy-overflow.pid
 while true; do
-    nc -l -p 1234 -e ./easy-overflow
+    nc -l -p $PORT -e ./easy-overflow
 done
