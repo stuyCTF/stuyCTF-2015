@@ -11,5 +11,7 @@ echo "Deploying Easy-Overflow...."
 bash -c "cd Easy-Overflow_60/admin/ && ./setup.sh" &
 echo "Deploying Format-Overflow...."
 bash -c "cd Format-Overflow_90/admin/ && ./setup.sh" &
+echo "Deploying Login-Attempts...."
+bash -c "cd Login-Attempts_80/admin/ && ./setup.sh" &
 echo "Deploying Rock-Paper-Scissors...."
 bash -c "cd Rock-Paper-Scissors_150/admin/ && ./setup.sh" &
