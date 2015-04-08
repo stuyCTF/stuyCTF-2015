@@ -1,0 +1,16 @@
+Hint says Zabari uses facebook a lot, find my facebook account http://www.facebook.com/zabari.daniel.
+If you look through an account not logged in, you'll probably only be able to see one post anyway, it's at this permalink: https://www.facebook.com/zabari.daniel/posts/1008453162520649?pnref=story
+
+Now what do all of those things have in common?  an in depth google serach will yield: that's right it's imgur.
+Now that random string of text makes a little bit of sense imgur.com/k6Sj1Qf will lead you to a picture of none other than me.
+Note the title, and the description.
+
+Unfortunately, it didn't work out exactly as I hoped (i.e. the problem was too hard) so I had to make it a bit easier.
+Googling the title will yield the fact that that's the way google docs links are set up.  Pasting the long string in the description in instead of any of those, will take you to the document you're looking for, this one: https://docs.google.com/document/d/18RE623V7hgR1LhZWO9skOmtLFN-YaHDodlIIP3KxZR0
+
+Almost at the end of our game, you have some more cryptic text.  For this one, some google digging and maybe the font will help you figure out that this is a reference to pastebin.
+pastebin.com/kFnbyh9i
+
+Tada! There's your flag!
+
+stuyctf{ZaBari's_Recon_WUZ_Annoy!ng}
