@@ -39,10 +39,8 @@ function kill_problem() {
     fi
 }
 
-kill_problem simple-netcat.pid "Simple Netcat"
-kill_problem easy-overflow.pid "Easy Overflow"
-kill_problem more-than-meets-the-eye.pid "More Than Meets The Eye"
-kill_problem tic-tac-toe.pid "Tic Tac Toe"
-kill_problem login-attempts.pid "Login Attempts"
-kill_problem format-overflow.pid "Format Overflow"
-kill_problem rock-paper-scissors.pid "Rock Paper Scissors"
+for tcpserver in `ls *.pid`
+do
+    problem_name=$(basename $tcpserver .pid)
+    kill_problem $tcpserver "${problem_name//-/ }"
+done
