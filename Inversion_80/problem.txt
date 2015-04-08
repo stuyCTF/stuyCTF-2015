@@ -1,4 +1,4 @@
-You intercepted a <a href="/problem-static/Inversion/package.zip">package</a>
+You intercepted a <a href="/problem-static/Inversion/package.zip">package.</a>
 The note inside seems to be about the encryption, but the radius is smeared!
 However, you can still make out that the radius is a two digit number, but what
 could that mean?
