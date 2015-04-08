@@ -1,5 +1,5 @@
 Welcome to stuyCTF! If this is your first Capture the Flag competition, then you're in luck! There's much to learn about computer science as you continue on.  Feel free to use the internet, and remember, Google (or Bing or DuckDuckGo) is your best friend here!
 
-The general format for the solutions, or <i>flags</i> as we call them, are in the format stuyCTF{XXXXXXXXXXXXXX}.
+The general format for the solutions, or <i>flags</i> as we call them, are in the format stuyctf{XXXXXXXXXXXXXX}.
 
 The flag for this problem is <b>stuyctf{here's_a_free_flag}</b>. Have fun!
