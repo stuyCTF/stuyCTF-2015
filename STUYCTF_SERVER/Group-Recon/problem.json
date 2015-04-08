@@ -1,7 +1,7 @@
 
 {
     "name": "Group Recon",
-    "score": 0,
+    "score": 25,
     "category": "",
     "grader": "./Group-Recon/grader.py",
     "description": "groups/1398071047179600<br>",
