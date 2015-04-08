@@ -1,0 +1,11 @@
+
+{
+    "name": "The Hunt",
+    "score": 40,
+    "category": "",
+    "grader": "./The-Hunt/grader.py",
+    "description": "Zabari uses Facebook a lot.<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "You should look through his posts."
+}

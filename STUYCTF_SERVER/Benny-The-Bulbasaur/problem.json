@@ -1,0 +1,11 @@
+
+{
+    "name": "Benny The Bulbasaur",
+    "score": 55,
+    "category": "",
+    "grader": "./Benny-The-Bulbasaur/grader.py",
+    "description": "Benny the Bulbasaur is a lv. 100 Bulbasaur with <a<br>href=\"/problem-static/Benny-The-Bulbasaur/bulbasaur.txt\">these</a> stats<br>and can learn <a href=\"/problem-static/Benny-The-Bulbasaur/bulbasaur.in\">these</a> moves, He is facing off against a lv. 100 Scizor<br>with a <a href=\"/problem-static/Benny-The-Bulbasaur/scizor.txt\">these</a> stats.<br><br><br>But Benny the Bulbasaur can only use 4 moves against his enemy, please calculate<br>the maximum expected value of the damage (HP-wise) Benny can dish out against the scizor rounded to the<br>nearest integer. The flag format is stuyctf{maximum_expected_damage} (Also using<br>gen V type effectiveness, beware of that)<br><br><br>P.S. the formula for damage can be found <a<br>href=\"http://bulbapedia.bulbagarden.net/wiki/Damage#Damage_formula\">here</a><br>and for the purpose of this problem, \"other\" is 1 and the random multiplier is<br>also 1. Also assume no critical hits.<br><br><br>P.S. #2. the moves file is formatted as the following:<br><br>Name Type Physical/Special BasePower Accuracy<br><br><br>P.S. #3. In case you don't know what an expected value is:<br>Suppose random variable x can take on value of a with probability p and it can<br>take on value b with probability q, the expected value of x is equivalent to a *<br>p + b * q<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "I hope you're not doing this by hand<br>"
+}

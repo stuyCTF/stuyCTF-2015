@@ -4,7 +4,7 @@
     "score": 80,
     "category": "",
     "grader": "./Login-Attempts/grader.py",
-    "description": "Attempt to log in!<br><br>The computer has been opened to the internet at <code>server.stuyctf.com:49999</code><br>",
+    "description": "Attempt to log in!<br><br>The computer has been opened to the internet at <code>stuyctf.me:49999</code><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": ""

@@ -2,4 +2,4 @@ We've uncovered a long lost computer with a message on the side that reads "Pass
 
 Luckily, we managed to obtain a <a href="/problem-static/Rock-Paper-Scissors/ai.pyc">compiled python file</a> that runs it!
 
-The computer has been opened to the internet at <code>server.stuyctf.com:50000</code>
+The computer has been opened to the internet at <code>stuyctf.me:50000</code>

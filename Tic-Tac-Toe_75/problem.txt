@@ -1,4 +1,4 @@
 It is often said that computers have perfected the games of tic-tac-toe... Is that really so?
 
 Try to beat this computer!
-The computer has been opened to the internet at <code>server.stuyctf.com:12348</code>
+The computer has been opened to the internet at <code>stuyctf.me:12348</code>
