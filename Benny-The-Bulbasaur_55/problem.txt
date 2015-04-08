@@ -1,7 +1,7 @@
 Benny the Bulbasaur is a lv. 100 Bulbasaur with <a
-href="/problem_data/Benny-The-Bulbasaur_55/bulbasaur.txt">these</a> stats
-and can learn <a href="/problem_data/Benny-The-Bulbasaur_55/bulbasaur.in">these</a> moves, He is facing off against a lv. 100 Scizor
-with a <a href="/problem_data/Benny-The-Bulbasaur_55/scizor.txt">these</a> stats.
+href="/problem-static/Benny-The-Bulbasaur_55/bulbasaur.txt">these</a> stats
+and can learn <a href="/problem-static/Benny-The-Bulbasaur_55/bulbasaur.in">these</a> moves, He is facing off against a lv. 100 Scizor
+with a <a href="/problem-static/Benny-The-Bulbasaur_55/scizor.txt">these</a> stats.
 
 
 But Benny the Bulbasaur can only use 4 moves against his enemy, please calculate
