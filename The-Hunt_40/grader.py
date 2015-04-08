@@ -7,6 +7,6 @@ flag = "stuyctf{ZaBari's_Recon_WUZ_Annoy!ng}"
 
 def grade(arg, key):
     if key == flag:
-        return True, "I knew I mad this problem too easy..."
+        return True, "I knew I made this problem too easy..."
     else:
         return False, ":( I love you and I'm sorry this is a recon."
