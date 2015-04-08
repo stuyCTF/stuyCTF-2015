@@ -1,0 +1,11 @@
+
+{
+    "name": "Easy Guess",
+    "score": 30,
+    "category": "",
+    "grader": "./Easy-Guess/grader.py",
+    "description": "Sad Richard think he's a boss programmer, because he goes to a really smart school in Virginia, called Benjamin Franklin.<br>Show him what Stuy kids are made of by hacking his random program.<br><br>He left the program for us at:<br>stuyctf.me:34567<br><br>He even left us the source <a href=\"/static/easy_guess.py\">here</a>.<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Do you REALLY know how the random module works?"
+}

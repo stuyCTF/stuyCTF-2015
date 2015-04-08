@@ -1,3 +1,3 @@
 DETAILS ABOUT THIS PROBLEM
-<a href="/problem_data/image-for-them-to-download.png"><img src="/problem_data/image-for-them-to-download.png" /></a>
+<a href="/problem-static/Problem-Name-Without-Points/image-for-them-to-download.png"><img src="/problem-static/Problem-Name-Without-Points/image-for-them-to-download.png" /></a>
 MORE DETAILS ABOUT THIS PROBLEM
