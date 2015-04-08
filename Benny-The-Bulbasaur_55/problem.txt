@@ -1,11 +1,11 @@
 Benny the Bulbasaur is a lv. 100 Bulbasaur with <a
-href="/problem-static/Benny-The-Bulbasaur_55/bulbasaur.txt">these</a> stats
-and can learn <a href="/problem-static/Benny-The-Bulbasaur_55/bulbasaur.in">these</a> moves, He is facing off against a lv. 100 Scizor
-with a <a href="/problem-static/Benny-The-Bulbasaur_55/scizor.txt">these</a> stats.
+href="/problem-static/Benny-The-Bulbasaur/bulbasaur.txt">these</a> stats
+and can learn <a href="/problem-static/Benny-The-Bulbasaur/bulbasaur.in">these</a> moves, He is facing off against a lv. 100 Scizor
+with a <a href="/problem-static/Benny-The-Bulbasaur/scizor.txt">these</a> stats.
 
 
 But Benny the Bulbasaur can only use 4 moves against his enemy, please calculate
-the maximum expected damage (HP-wise) Benny can dish out against the scizor rounded to the
+the maximum expected value of the damage (HP-wise) Benny can dish out against the scizor rounded to the
 nearest integer. The flag format is stuyctf{maximum_expected_damage} (Also using
 gen V type effectiveness, beware of that)
 
