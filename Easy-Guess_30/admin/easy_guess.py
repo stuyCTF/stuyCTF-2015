@@ -1,8 +1,23 @@
+#!/usr/bin/python2.7
 import random #woohoo the random module is lots of fun
 import math
+import sys
+
+class UnbufferedStream(object):
+    def __init__(self, stream):
+        self.stream = stream
+    def write(self, data):
+        self.stream.write(data)
+        self.stream.flush()
+    def __getattr__(self, attr):
+        return getattr(self.stream, attr)
+
+sys.stdout = UnbufferedStream(sys.stdout)
+
 random.seed(999999999999999999999999999999999999) #heheheh super high number so hax0rs will never get it
 key=0
-flag=open('flag.txt','r').readlines()[0].strip("\n")
+with open('flag.txt','r') as f:
+    flag=f.read()
 i=math.floor(random.random()*100)
 while i > 0:
     random.random() #to mix it up a little

@@ -1,3 +1,4 @@
+#!/usr/bin/python2.7
 import random #woohoo the random module is lots of fun
 import math
 random.seed(999999999999999999999999999999999999) #heheheh super high number so hax0rs will never get it
