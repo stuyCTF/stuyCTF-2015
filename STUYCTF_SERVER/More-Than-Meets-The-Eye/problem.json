@@ -1,9 +1,9 @@
 
 {
-    "name": "MoreThanMeetsTheEye",
+    "name": "More Than Meets The Eye",
     "score": 60,
     "category": "",
-    "grader": "./MoreThanMeetsTheEye/grader.py",
+    "grader": "./More-Than-Meets-The-Eye/grader.py",
     "description": "Where is the flag?<br><br>The computer has been opened to the internet at <code>server.stuyctf.com 12347</code><br>",
     "threshold": 0,
     "weightmap": {},

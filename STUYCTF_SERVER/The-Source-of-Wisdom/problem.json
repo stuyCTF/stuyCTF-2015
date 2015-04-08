@@ -1,9 +1,9 @@
 
 {
-    "name": "TheSourceOfWisdom",
+    "name": "The Source of Wisdom",
     "score": 10,
     "category": "",
-    "grader": "./TheSourceOfWisdom/grader.py",
+    "grader": "./The-Source-of-Wisdom/grader.py",
     "description": "Find the flag!<br><a href=\"http://www.whitehatacademy.club/index.html_stuyctf\">Problem</a><br>",
     "threshold": 0,
     "weightmap": {},

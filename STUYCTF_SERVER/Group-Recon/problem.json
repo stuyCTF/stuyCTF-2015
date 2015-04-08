@@ -1,9 +1,9 @@
 
 {
-    "name": "GroupRecon",
+    "name": "Group Recon",
     "score": 0,
     "category": "",
-    "grader": "./GroupRecon/grader.py",
+    "grader": "./Group-Recon/grader.py",
     "description": "groups/1398071047179600<br>",
     "threshold": 0,
     "weightmap": {},
