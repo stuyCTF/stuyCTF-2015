@@ -5,7 +5,7 @@
     "category": "",
     "grader": "./HiPS/grader.py",
     "description": "<img src=\"/problem-static/HiPS/flag.jpg\" style=\"width:40%;\" /><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Strings": 1},
     "hint": "Not this image again!<br>"
 }

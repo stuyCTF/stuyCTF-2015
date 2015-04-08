@@ -4,8 +4,8 @@
     "score": 55,
     "category": "",
     "grader": "./Deeper/grader.py",
-    "description": "I was given a picture of a flag... But where is the flag?<br><br><img src=\"/problem-static/Deeper/findtheflag.png\" style=\"width:40%;\" /><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "description": "I heard you like flags, so here's another flag.<br>But where is the flag?<br><br><img src=\"/problem-static/Deeper/findtheflag.png\" style=\"width:40%;\" /><br>",
+    "threshold": 2,
+    "weightmap": {"Strings": 1, "HiPS": 1},
     "hint": "Check the file headers!<br>"
 }
