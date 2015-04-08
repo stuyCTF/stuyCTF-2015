@@ -4,7 +4,7 @@
     "score": 80,
     "category": "",
     "grader": "./Inversion/grader.py",
-    "description": "You intercepted a <a href=\"/problem_data/Inversion/package.zip\">package</a><br>The note inside seems to be about the encryption, but the radius is smeared!<br>However, you can still make out that the radius is a two digit number, but what<br>could that mean?<br>",
+    "description": "You intercepted a <a href=\"/problem-static/Inversion/package.zip\">package</a><br>The note inside seems to be about the encryption, but the radius is smeared!<br>However, you can still make out that the radius is a two digit number, but what<br>could that mean?<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "Inversion... Think geometric inversion...<br>"
