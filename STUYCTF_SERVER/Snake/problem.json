@@ -1,0 +1,11 @@
+
+{
+    "name": "Snake",
+    "score": 77,
+    "category": "",
+    "grader": "./Snake/grader.py",
+    "description": "<img src=\"/problem-static/Snake/snake.jpg\" /><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Think different kinds of snakes :)<br>"
+}

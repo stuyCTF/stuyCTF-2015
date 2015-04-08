@@ -1,0 +1,6 @@
+1. Unzip snake.jpg
+2. Base64 decode the key to reveal a clue to Nicki Minaj's Anaconda
+3. We are referring to the cipher, Serpent Cipher, http://serpent.online-domain-tools.com 
+4. Using the hex provided and the key, anaconda, we get the flag
+
+stuyctf{who_knew_serpent_cipher_existed}
