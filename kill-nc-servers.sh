@@ -39,8 +39,8 @@ function kill_problem() {
     fi
 }
 
-for tcpserver in `ls *.pid`
+for pid_file in `ls *.pid`
 do
-    problem_name=$(basename $tcpserver .pid)
-    kill_problem $tcpserver "${problem_name//-/ }"
+    problem_name=$(basename $pid_file .pid)
+    kill_problem $pid_file "${problem_name//-/ }"
 done
