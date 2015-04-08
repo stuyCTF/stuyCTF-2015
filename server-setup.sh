@@ -18,6 +18,8 @@ copy() {
         echo "Overwrite it? (y/n)"
         read ans
         if [[ $ans == "y" ]]; then
+            # Back up README.md
+            mv ../stuyCTF-Platform/problems/README.md /tmp/server-setup-README.md
             rm -rf ../stuyCTF-Platform/problems
         else
             return
@@ -25,5 +27,7 @@ copy() {
     fi
     mkdir -p ../stuyCTF-Platform/problems
     cp -r STUYCTF_SERVER/* ../stuyCTF-Platform/problems
+    # Restore README.md
+    mv /tmp/server-setup-README.md ../stuyCTF-Platform/problems/README.md
 }
 copy
