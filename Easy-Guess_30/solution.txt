@@ -1,0 +1,4 @@
+Of course, you know that if you seed the random module with any number, seeding it with the same number again will produce the same "random" sequence.
+Copy pasting the source and having it print out the "key" variable will give you the number that you need to guess.
+Correct guess: 310295.0
+Flag: stuyctf{Nevar_use_k0nstant_seeds}
