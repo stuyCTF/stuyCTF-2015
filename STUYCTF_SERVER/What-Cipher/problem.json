@@ -1,0 +1,11 @@
+
+{
+    "name": "What Cipher",
+    "score": 95,
+    "category": "",
+    "grader": "./What-Cipher/grader.py",
+    "description": "Help! My friend gave me this file and he told me the encryption method and<br>password so I could read it when I got home, but I forgot them both! I still<br>remember that the password was unusually short, two lowercase letters to be<br>exact, but I can't recall which. Could you recover the message for me?<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "How can we figure out the encryption method?<br>"
+}

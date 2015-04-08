@@ -1,0 +1,8 @@
+Type: Grass, Poison
+HP: 294
+Attack: 216
+Defense: 216
+Sp. Attack: 251
+Sp. Defense: 251
+Speed: 207
+

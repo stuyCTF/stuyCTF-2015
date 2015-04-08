@@ -1,0 +1,11 @@
+First, let's open up the ciphertext file. We immediately notice the distinct
+Salted__ prefix to the ciphertext. A quick Google search reveals that this is a
+sign of an OpenSSL encryption. Great, that narrows down the possibilities for
+which cipher it could be, but there are still lots to try. There's no way we
+want to do this manually so let's whip up a script (see admin/decrypt.sh) using
+the openssl command line tool to decrypt the ciphertext, trying all combinations
+of two lowercase alphabetical characters and OpenSSL ciphers. We know the plaintext
+must have the string "stuyctf", so we just need to filter for decrypted output
+that contains this string. After our script finishes executing, we get presented
+with the flag:
+stuyctf{openssl_is_4w3s0m3}

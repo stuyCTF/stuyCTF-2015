@@ -4,7 +4,7 @@
     "score": 150,
     "category": "",
     "grader": "./Rock-Paper-Scissors/grader.py",
-    "description": "We've uncovered a long lost computer with a message on the side that reads \"Password: RockBeatsScissorsBeatsPaper\". Apparently this computer was made to play a simple game of Rock, Paper, Scissors! But is it really that simple? Beat the computer to get the flag!<br><br>Luckily, we managed to obtain a <a href=\"/problem-static/Rock-Paper-Scissors/ai.pyc\">compiled python file</a> that runs it!<br><br>The computer has been opened to the internet at <code>server.stuyctf.com:50000</code><br>",
+    "description": "We've uncovered a long lost computer with a message on the side that reads \"Password: RockBeatsScissorsBeatsPaper\". Apparently this computer was made to play a simple game of Rock, Paper, Scissors! But is it really that simple? Beat the computer to get the flag!<br><br>Luckily, we managed to obtain a <a href=\"/problem-static/Rock-Paper-Scissors/ai.pyc\">compiled python file</a> that runs it!<br><br>The computer has been opened to the internet at <code>stuyctf.me:50000</code><br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "How does the <b>New York Times</b> program their Novice AI?<br>"

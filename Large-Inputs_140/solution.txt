@@ -1,0 +1,15 @@
+This involves a bit of reverse engineering and understanding the math that is going on.
+
+We basically have to understand that the result is given as a function of:
+    y = x / n1 + n2 / x
+where y is the next result, x is the previous result, and n1,n2 are constants given.
+
+Solving for x can be done by rearranging the equation:
+    x^2 - x(n1)y + (n1)(n2) = 0
+and then you can find x by finding the roots of the equation.
+
+When this process is repeated over and over (22 times!), the error of float multiplication on computer systems adds up, resulting in an answer that is much different from the original one given. Thus, we allowed a significant margin of error in the answers.
+Anything from stuyctf{6981766566676} to stuyctf{6981767868659} is accepted. (a range of 1,301,983 numbers!)
+
+The solution can be found in admin/solution.c
+If you have another solution, I would love to hear about it! :) - Danny
