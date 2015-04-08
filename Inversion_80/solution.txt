@@ -1,0 +1,15 @@
+so you know that there are only 90 possible radii for the inversion, so you
+first make a decrypt program (like solution.py) based on the source code. Then
+your loop through all possible radii with something like this:
+
+for i `seq 10 99` ; do ./solution.py image.jpg.enc $i 0 0 ; done
+
+Then one of the result is a real pic and there you've decrypted it.
+
+Then you see that penguin is not the answer, this is another stego! If you hex
+inspect it you'll notice that this is a zip file hiding inside the picture, so
+you simply:
+
+string blah.jpg
+
+and you have the flag!

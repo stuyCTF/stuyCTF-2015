@@ -1,0 +1,1 @@
+stuyctf{math_is_cool_so_are_penguins}
