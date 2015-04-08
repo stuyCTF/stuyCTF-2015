@@ -1,16 +1,17 @@
-f = open("bulbasaur.in", "r").read().split("\n")
+from heapq import *
+f = open("bulbasaur.in", "r").readlines()
 
-BLv = 100
-BAtk = 216
-BSPA = 251
+BLv = 100  # Bulbasaur lvl
+BAtk = 216 # Bulbasaur atk
+BSPA = 251 # Bulbasaur sp. atk
 
-SDef = 328
-SSPD = 284
+SDef = 328 # Scizor def
+SSPD = 284 # Scizor sp. def
 
 STAB = ["Grass", "Poison"]
 x4Effective = ["Fire"]
 xhalfEffective = ["Normal", "Ice", "Psychic", "Bug", "Ghost", "Dragon", "Dark",
-        "Steel"]
+                  "Steel"]
 xfourthEffective = ["Grass"]
 x0Effective = ["Poison"]
 
@@ -32,26 +33,10 @@ def damage(Type, Physical, Base, Accuracy):
         return 0
     return (Accuracy / 100.) * d * modifier
 
-moveList = []
-
-for el in f[0:-1]:
-    a = el.split(" ")
-    moveList.append([a[1], a[2] == "Physical", int(a[3]), float(a[4])])
-
 damageList = []
 
-for el in moveList:
-    damageList.append(damage(el[0], el[1], el[2], el[3]))
+for el in f:
+    a = el.split(" ")
+    heappush(damageList, damage(a[1], a[2] == "Physical", int(a[3]), float(a[4])))
 
-answer = 0.0
-
-answer += max(damageList)
-damageList.remove(max(damageList))
-answer += max(damageList)
-damageList.remove(max(damageList))
-answer += max(damageList)
-damageList.remove(max(damageList))
-answer += max(damageList)
-damageList.remove(max(damageList))
-
-print answer
+print sum(nlargest(4, damageList))
