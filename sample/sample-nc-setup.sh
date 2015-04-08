@@ -9,9 +9,9 @@ RED="\033[1;31m"
 RESET="\033[m"
 
 PID=$$
-PROBLEM_NAME="Easy Overflow" # keep this formal
-SCRIPT_TO_RUN="./easy-overflow"
-PORT=12345
+PROBLEM_NAME="Sample Problem" # keep this formal
+SCRIPT_TO_RUN="python sample-problem"
+PORT=65535
 PROBLEM_NAME_SLUG=${PROBLEM_NAME// /-}
 TYPE=tcpserver
 if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
