@@ -19,3 +19,9 @@ also 1. Also assume no critical hits.
 P.S. #2. the moves file is formatted as the following:
 
 Name Type Physical/Special BasePower Accuracy
+
+
+P.S. #3. In case you don't know what an expected value is:
+Suppose random variable x can take on value of a with probability p and it can
+take on value b with probability q, the expected value of x is equivalent to a *
+p + b * q
