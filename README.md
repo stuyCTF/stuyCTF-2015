@@ -20,6 +20,7 @@ Please run `./problem-init.sh PROBLEM-NAME_POINTS` to create problems!
 Problem-name_POINTS/
 ├── problem.txt (see the formatting in sample-problem.txt)
 ├── hint.txt (see the formatting in sample-hint.txt)
+├── category.txt (see the formatting in sample-category.txt)
 ├── solution.txt
 ├── grader.py (file to grade the user's input)
 ├── weightmap.json (file for unlocking problems)
