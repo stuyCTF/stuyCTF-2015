@@ -1,0 +1,13 @@
+Using objdump -d or any disassembler, we can get the function address of the 'func' function.
+
+Any answer resembling 080484c1 works.
+
+> objdump -d dumper
+080484c1 <func>:
+ 80484c1:	55                   	push   %ebp
+ 80484c2:	89 e5                	mov    %esp,%ebp
+ 80484c4:	83 ec 10             	sub    $0x10,%esp
+ 80484c7:	83 45 08 01          	addl   $0x1,0x8(%ebp)
+                        .
+                        .
+                        .

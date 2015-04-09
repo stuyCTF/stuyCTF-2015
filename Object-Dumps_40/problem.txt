@@ -1,0 +1,3 @@
+We're given a compiled binary for a program that was written in C. We want the function address of the 'func' function! Can you help us find it?
+
+The binary is available here: <a href="/problem-static/Object-Dumps/dumper">dumper</a>
