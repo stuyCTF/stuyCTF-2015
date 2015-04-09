@@ -5,7 +5,7 @@
     "category": "",
     "grader": "./Easy-Reverse-Engineering/grader.py",
     "description": "Is the flag hidden somewhere in the binary?<br><br>Reverse engineer the <a href=\"/problem-static/Easy-Reverse-Engineering/PassCheck\">PassCheck</a>!<br>",
-    "threshold": 0,
-    "weightmap": {},
-    "hint": "What does <code>objdump -d</code> do?<br>"
+    "threshold": 1,
+    "weightmap": {"Object Dumps": 1},
+    "hint": "What does <code>objdump -d</code> do again?<br>"
 }

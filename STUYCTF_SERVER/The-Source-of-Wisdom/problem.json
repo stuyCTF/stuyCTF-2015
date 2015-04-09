@@ -4,7 +4,7 @@
     "score": 10,
     "category": "",
     "grader": "./The-Source-of-Wisdom/grader.py",
-    "description": "Find the flag!<br><a href=\"http://www.whitehatacademy.club/index.html_stuyctf\">Problem</a><br>",
+    "description": "Find the flag! It's somewhere on <a href=\"http://www.whitehatacademy.club/index.html_stuyctf\">this page</a>.<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "What's the first thing you should do when visiting a website?<br>"

@@ -4,7 +4,7 @@
     "score": 140,
     "category": "",
     "grader": "./Large-Inputs/grader.py",
-    "description": "Computers enjoy crunching numbers. Do you?<br><br>Find the flag from <a href=\"/problem-static/main-redacted.c\">this code</a>!<br>",
+    "description": "Computers enjoy crunching numbers. Do you?<br><br>Find the flag from <a href=\"/problem-static/Large-Inputs/main-redacted.c\">this code</a>!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "This problem involves a bit of math. Have fun!<br>"

@@ -7,5 +7,5 @@
     "description": "Can you overflow?<br><br><a href=\"/problem-static/Easy-Overflow/main-redacted.c\">Source Code</a><br><br>The computer has been opened to the internet at <code>stuyctf.me:12345</code><br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "<a href=\"http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description\">Hint</a><br>"
+    "hint": "What is <a href=\"http://en.wikipedia.org/wiki/Buffer_overflow#Technical_description\">Overflow?</a><br>"
 }
