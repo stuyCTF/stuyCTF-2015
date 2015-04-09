@@ -1,0 +1,9 @@
+Sooooo fun stuff inside the picture is obviously hidden a zip file.  Inisde the zip file, is a base64 encoded blowfish encrypted string of text.
+You know it's blowfish because it's a picture of a blowfish and the problem is called tetradontidae.
+now you need a key, if you strings pic.jpg | grep "hint" you will find hint: itsapuffer which is the key.
+Once you've decrypted that, you'll get a link, the link leads you to a gif, in which will be a barcode.
+Use a barcode decoder and tada, there you have it.
+
+Link: https://www.dropbox.com/s/njn2qdnc9p9sqz6/final.gif?dl=0
+
+Flag: stuyctf{beep_beep_scanned!}

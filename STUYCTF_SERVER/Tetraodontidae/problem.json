@@ -1,0 +1,11 @@
+
+{
+    "name": "Tetraodontidae",
+    "score": 70,
+    "category": "",
+    "grader": "./Tetraodontidae/grader.py",
+    "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\">",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "stringsssss"
+}
