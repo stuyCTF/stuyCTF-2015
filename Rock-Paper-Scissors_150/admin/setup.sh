@@ -19,6 +19,7 @@ if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
     while true; do
         if $SCRIPT_TO_RUN 2>&1 | grep "Address already in use" > /dev/null; then
             printf "${RED}ERROR ($PROBLEM_NAME): Port ${PORT} already in use!${RESET}\n"
+            rm ../../$PROBLEM_NAME_SLUG.pid
             exit 1
         fi
     done

@@ -14,11 +14,18 @@ SCRIPT_TO_RUN="./easy-overflow"
 PORT=12345
 PROBLEM_NAME_SLUG=${PROBLEM_NAME// /-}
 TYPE=tcpserver
+_UID=$(id -u easy-overflow)
+_GID=$(id -g easy-overflow)
+if [[ $(id -u) != "0" ]]; then
+    printf "${RED}This script must be run as root.${RESET}\n"
+    exit 1
+fi
 if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
     echo -e "${PID} ${PORT} ${TYPE}" > ../../$PROBLEM_NAME_SLUG.pid
     while true; do
-        if tcpserver -H -R 0.0.0.0 $PORT $SCRIPT_TO_RUN 2>&1 | grep "unable to bind" > /dev/null; then
+        if sudo tcpserver -g $_GID -u $_UID -H -R 0.0.0.0 $PORT $SCRIPT_TO_RUN 2>&1 | grep "unable to bind" > /dev/null; then
             printf "${RED}ERROR ($PROBLEM_NAME): Port ${PORT} already in use!${RESET}\n"
+            rm ../../$PROBLEM_NAME_SLUG.pid
             exit 1
         fi
     done
