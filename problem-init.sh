@@ -10,4 +10,5 @@ then
     cp sample/sample-grader.py $PROBLEM_NAME/grader.py
     cp sample/sample-weightmap.json $PROBLEM_NAME/weightmap.json
     cp sample/sample-hint.txt $PROBLEM_NAME/hint.txt
+    cp sample/sample-category.txt $PROBLEM_NAME/category.txt
 fi
