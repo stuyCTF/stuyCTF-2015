@@ -2,7 +2,7 @@
 {
     "name": "Strings",
     "score": 35,
-    "category": "",
+    "category": "Forensics",
     "grader": "./Strings/grader.py",
     "description": "Where's the flag??<br><br><img src=\"/problem-static/Strings/red-flag-pointer.jpg\" style=\"width:40%;\" /><br>",
     "threshold": 0,

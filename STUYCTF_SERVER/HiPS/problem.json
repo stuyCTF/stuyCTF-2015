@@ -2,7 +2,7 @@
 {
     "name": "HiPS",
     "score": 50,
-    "category": "",
+    "category": "Forensics",
     "grader": "./HiPS/grader.py",
     "description": "<img src=\"/problem-static/HiPS/flag.jpg\" style=\"width:40%;\" /><br>",
     "threshold": 1,

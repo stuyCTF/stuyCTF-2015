@@ -2,7 +2,7 @@
 {
     "name": "Crypto 3",
     "score": 50,
-    "category": "",
+    "category": "Cryptography",
     "grader": "./Crypto-3/grader.py",
     "description": "Someone seems to have dropped this sheet of paper on the floors of Stuyvesant High School. Can you help me decipher this?<br><br>This <a href=\"/problem-static/Crypto-3/rsa.txt\">paper</a> has lots of weird numbers.<br>",
     "threshold": 2,

@@ -2,7 +2,7 @@
 {
     "name": "Fair Play",
     "score": 65,
-    "category": "",
+    "category": "Miscellaneous",
     "grader": "./Fair-Play/grader.py",
     "description": "The quick brown fox jumps over the lazy dog!<br><br>meegihxo{smzdodcikmodcismzd}<br>",
     "threshold": 0,

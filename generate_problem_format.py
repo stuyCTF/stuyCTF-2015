@@ -3,6 +3,7 @@ import os, glob, json, shutil, sys
 
 PROBLEM_FILE = "problem.txt"
 HINT_FILE = "hint.txt"
+CATEGORY_FILE = "category.txt"
 GRADER_FILE = "grader.py"
 WEIGHTMAP_FILE = "weightmap.json"
 RELEASE_FOLDER = "release"
@@ -12,7 +13,7 @@ template = """
 {{
     "name": "{name}",
     "score": {score},
-    "category": "",
+    "category": "{category}",
     "grader": "{grader}",
     "description": "{description}",
     "threshold": {threshold},
@@ -34,6 +35,7 @@ for folder in folders:
     # Problem name format: PROBLEM-NAME_SCORE
     problem_name = folder[2:folder.find("_")]
     problem_score = 0 if folder.find("_") == -1 else folder[folder.find("_")+1:-1]
+    problem_category = ""
     problem_description = ""
     problem_hint = ""
     problem_threshold = 0
@@ -51,6 +53,11 @@ for folder in folders:
         #print "Missing hint file...", e
         pass
     try:
+        with open(folder + CATEGORY_FILE, "r") as f:
+            problem_category = f.read().strip()
+    except IOError, e:
+        print "Missing category file...", e
+    try:
         with open(folder + WEIGHTMAP_FILE, "r") as f:
             weightmaps = json.loads(f.read())
             problem_threshold = weightmaps["threshold"]
@@ -63,6 +70,7 @@ for folder in folders:
     problem = template.format(
         name = problem_name.replace("-"," "),
         score = problem_score,
+        category = problem_category,
         grader = problem_grader,
         description = problem_description.replace("\n","<br>").replace('"','\\"'),
         hint = problem_hint.replace("\n","<br>").replace('"', '\\"'),

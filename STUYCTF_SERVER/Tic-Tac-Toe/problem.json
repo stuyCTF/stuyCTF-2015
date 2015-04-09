@@ -2,7 +2,7 @@
 {
     "name": "Tic Tac Toe",
     "score": 75,
-    "category": "",
+    "category": "Exploitation",
     "grader": "./Tic-Tac-Toe/grader.py",
     "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br><br>Try to beat this computer!<br>The computer has been opened to the internet at <code>stuyctf.me:12348</code><br>",
     "threshold": 1,

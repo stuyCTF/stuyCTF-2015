@@ -2,7 +2,7 @@
 {
     "name": "Easy Reverse Engineering",
     "score": 75,
-    "category": "",
+    "category": "Reverse Engineering",
     "grader": "./Easy-Reverse-Engineering/grader.py",
     "description": "Is the flag hidden somewhere in the binary?<br><br>Reverse engineer the <a href=\"/problem-static/Easy-Reverse-Engineering/PassCheck\">PassCheck</a>!<br>",
     "threshold": 1,

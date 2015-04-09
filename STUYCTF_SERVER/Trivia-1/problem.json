@@ -2,7 +2,7 @@
 {
     "name": "Trivia 1",
     "score": 5,
-    "category": "",
+    "category": "Miscellaneous",
     "grader": "./Trivia-1/grader.py",
     "description": "In Unix based system, which command searches through files for a string and outputs all the lines that contain the specified string?<br>",
     "threshold": 0,

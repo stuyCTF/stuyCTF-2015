@@ -2,7 +2,7 @@
 {
     "name": "Tetraodontidae",
     "score": 70,
-    "category": "",
+    "category": "Cryptography",
     "grader": "./Tetraodontidae/grader.py",
     "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\">",
     "threshold": 0,

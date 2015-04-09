@@ -2,7 +2,7 @@
 {
     "name": "Impossible",
     "score": 100,
-    "category": "",
+    "category": "Reverse Engineering",
     "grader": "./Impossible/grader.py",
     "description": "This is impossible.<br><br><a href=\"/problem-static/Impossible/impossible\">Binary</a><br><a href=\"/problem-static/Impossible/main-redacted.c\">Source Code</a><br>",
     "threshold": 0,

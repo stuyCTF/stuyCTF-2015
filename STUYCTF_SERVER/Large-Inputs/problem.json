@@ -2,7 +2,7 @@
 {
     "name": "Large Inputs",
     "score": 140,
-    "category": "",
+    "category": "Algorithms/Reverse Engineering",
     "grader": "./Large-Inputs/grader.py",
     "description": "Computers enjoy crunching numbers. Do you?<br><br>Find the flag from <a href=\"/problem-static/Large-Inputs/main-redacted.c\">this code</a>!<br>",
     "threshold": 0,

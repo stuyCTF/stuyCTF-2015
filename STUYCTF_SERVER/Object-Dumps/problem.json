@@ -2,7 +2,7 @@
 {
     "name": "Object Dumps",
     "score": 40,
-    "category": "",
+    "category": "Reverse Engineering",
     "grader": "./Object-Dumps/grader.py",
     "description": "We're given a compiled binary for a program that was written in C. We want the function address of the 'func' function! Can you help us find it?<br><br>The binary is available here: <a href=\"/problem-static/Object-Dumps/dumper\">dumper</a><br>",
     "threshold": 0,

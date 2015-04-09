@@ -2,7 +2,7 @@
 {
     "name": "More Than Meets The Eye",
     "score": 60,
-    "category": "",
+    "category": "Miscellaneous",
     "grader": "./More-Than-Meets-The-Eye/grader.py",
     "description": "Where is the flag?<br><br>The computer has been opened to the internet at <code>stuyctf.me:12347</code><br>",
     "threshold": 0,

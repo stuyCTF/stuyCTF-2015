@@ -2,7 +2,7 @@
 {
     "name": "Elvish Caesar",
     "score": 50,
-    "category": "",
+    "category": "Miscellaneous",
     "grader": "./Elvish-Caesar/grader.py",
     "description": "<img src=\"/problem-static/Elvish-Caesar/elvish.png\" /><br>",
     "threshold": 0,

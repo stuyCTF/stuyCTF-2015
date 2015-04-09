@@ -2,7 +2,7 @@
 {
     "name": "Easy Overflow",
     "score": 60,
-    "category": "",
+    "category": "Exploitation",
     "grader": "./Easy-Overflow/grader.py",
     "description": "Can you overflow?<br><br><a href=\"/problem-static/Easy-Overflow/main-redacted.c\">Source Code</a><br><br>The computer has been opened to the internet at <code>stuyctf.me:12345</code><br>",
     "threshold": 0,

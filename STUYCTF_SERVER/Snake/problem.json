@@ -2,7 +2,7 @@
 {
     "name": "Snake",
     "score": 77,
-    "category": "",
+    "category": "Forensics",
     "grader": "./Snake/grader.py",
     "description": "<img src=\"/problem-static/Snake/snake.jpg\" /><br>",
     "threshold": 0,
