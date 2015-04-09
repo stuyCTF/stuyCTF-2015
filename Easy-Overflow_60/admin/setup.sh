@@ -17,7 +17,11 @@ TYPE=tcpserver
 _UID=$(id -u easy-overflow)
 _GID=$(id -g easy-overflow)
 if [[ $(id -u) != "0" ]]; then
-    printf "${RED}This script must be run as root.${RESET}\n"
+    printf "${RED}(${PROBLEM_NAME}) This script must be run as root.${RESET}\n"
+    exit 1
+fi
+if [[ $_UID == "" || $_GID == "" ]]; then
+    printf "${RED}Missing user for ${PROBLEM_NAME}.${RESET}\n"
     exit 1
 fi
 if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
