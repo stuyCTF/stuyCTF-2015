@@ -1,3 +1,3 @@
 Computers enjoy crunching numbers. Do you?
 
-Find the flag from <a href="/problem-static/main-redacted.c">this code</a>!
+Find the flag from <a href="/problem-static/Large-Inputs/main-redacted.c">this code</a>!

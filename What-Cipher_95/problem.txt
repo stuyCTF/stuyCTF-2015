@@ -1,4 +1,1 @@
-Help! My friend gave me this <a href="/problem-static/What-Cipher/ciphertext.txt">file</a> and he told me the encryption method and
-password so I could read it when I got home, but I forgot them both! I still
-remember that the password was unusually short, two lowercase letters to be
-exact, but I can't recall which. Could you recover the message for me?
+Help! My friend gave me this <a href="/problem-static/What-Cipher/ciphertext.txt">file</a> and he told me the encryption method and password so I could read it when I got home, but I forgot them both! I still remember that the password was unusually short, two lowercase letters to be exact, but I can't recall which. Could you recover the message for me?

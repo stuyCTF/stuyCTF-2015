@@ -1,2 +1,1 @@
-Find the flag!
-<a href="http://www.whitehatacademy.club/index.html_stuyctf">Problem</a>
+Find the flag! It's somewhere on <a href="http://www.whitehatacademy.club/index.html_stuyctf">this page</a>.

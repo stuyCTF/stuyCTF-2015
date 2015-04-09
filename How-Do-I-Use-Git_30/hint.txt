@@ -1,1 +1,1 @@
-<a href="https://help.github.com/categories/repositories/">Hint</a>
+<a href="https://help.github.com/categories/repositories/">https://help.github.com/categories/repositories/</a>
