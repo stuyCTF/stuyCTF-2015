@@ -9,9 +9,15 @@ sock.connect((HOST , PORT))
 flagchars = ""
 
 for i in range(0, 100):
-    received = sock.recv(1024)
+    received = repr(sock.recv(1024))
     flagchars += received
 
-print ''.join([flagchar[0] for flagchar in flagchars.split("\n")])
+flag = ""
+for i in range(0 , len(flagchars)):
+    if i % 28 == 1:
+        flag += flagchars[i]
+        if flagchars[i] == "}":
+            break;
 
+print flag
 # flag: stuyctf{why_backspace_no_werk}
