@@ -6,6 +6,8 @@
 # Lastly make sure that you place this in the admin/ folder of your problem!
 
 RED="\033[1;31m"
+YELLOW="\033[1;33m"
+GREEN="\033[1;32m"
 RESET="\033[m"
 
 PID=$$
@@ -21,8 +23,15 @@ if [[ $(id -u) != "0" ]]; then
     exit 1
 fi
 if [[ $_UID == "" || $_GID == "" ]]; then
-    printf "${RED}Missing user for ${PROBLEM_NAME}.${RESET}\n"
-    exit 1
+    printf "${YELLOW}Missing user for ${PROBLEM_NAME}. Attempting to add user....${RESET}\n"
+    ./user-setup.sh
+    if [[ $? == 0 ]]; then
+        printf "${GREEN}User successfully added. Re-run the start script.${RESET}\n"
+        exit 0
+    else
+        printf "${RED}An error occurred while trying to add user.${RESET}\n"
+        exit 1
+    fi
 fi
 if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
     echo -e "${PID} ${PORT} ${TYPE}" > ../../$PROBLEM_NAME_SLUG.pid
