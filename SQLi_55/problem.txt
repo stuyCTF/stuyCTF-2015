@@ -1,0 +1,2 @@
+The flag is the password for the user with username = "admin"
+<a href="http://stuyctf.me/sqli/login.html">Login Site</a>
