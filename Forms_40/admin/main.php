@@ -1,12 +1,12 @@
 <html>
 <head>
-<title>PHP 1</title>
+<title>Forms</title>
 </head>
 <body>
 
 <?php
 
-$flag = "stuyctf{forms_2_easy}";
+$flag = "<!-- stuyctf{forms_2_easy} -->";
 
 $a = $_POST["PIN"];
 $show = $_POST["showsource"];
@@ -14,9 +14,8 @@ $show = $_POST["showsource"];
 if (isset($show) && $show != 0) {
     echo '<pre>
 $a = $_POST["PIN"];
-$show = $_POST["showsource"];
 if ($a == -19827747736161128312837161661727773716166727272616149001823847) {
-    echo $flag;
+    echo "Congratulations! The flag is $flag;
 } else {
     echo "User with provided PIN not found."; 
 }
