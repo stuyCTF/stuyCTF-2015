@@ -5,8 +5,8 @@ PROBLEM_DIRS=$(ls | grep "_[0-9]*\$")
 chmod 770 $PROBLEM_DIRS .
 
 # 770 stuyCTF-Platform
-if [[ -d ../stuyCTF-Platform ]]; then
-    chmod 770 ../stuyCTF-Platform
+if [[ -d ../stuyCTF-Platform/problems ]]; then
+    chmod 770 ../stuyCTF-Platform/problems
 fi
 
 # 770 /vagrant
