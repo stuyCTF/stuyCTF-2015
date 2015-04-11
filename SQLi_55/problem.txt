@@ -1,3 +1,0 @@
-The flag is the password for the user with username = "admin"
-
-Here's the <a href="/php/SQLi/index.php">Login Site</a>. The source code is <a href="/problem-static/SQLi/login.php">here</a>.
