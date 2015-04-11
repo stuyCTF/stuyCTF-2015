@@ -4,7 +4,7 @@
     "score": 40,
     "category": "Exploitation",
     "grader": "./Forms/grader.py",
-    "description": "Looks like someone believes that their PIN is unbreakable...<br><br>Let's prove them wrong!<br>",
+    "description": "Looks like someone believes that their PIN is unbreakable...<br><br>Let's prove them wrong <a href=\"http://stuyctf.me/php/Forms/main.php\">here</a>!<br>",
     "threshold": 0,
     "weightmap": {},
     "hint": "Is there a way to see what is happening on the server?<br>"
