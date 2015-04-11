@@ -1,4 +1,4 @@
 {
     "threshold": 2,
-    "weightmap": {"Easy-Overflow":1, "Tic-Tac-Toe":1}
+    "weightmap": {"Easy-Overflow":1, "Simple-Netcat": 1, "Tic-Tac-Toe":1}
 }

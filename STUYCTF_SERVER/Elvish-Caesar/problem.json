@@ -5,7 +5,7 @@
     "category": "Miscellaneous",
     "grader": "./Elvish-Caesar/grader.py",
     "description": "<img src=\"/problem-static/Elvish-Caesar/elvish.png\" /><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Crypto 1": 1},
     "hint": "YOU SHALL NOT PASS<br><br><em>Also, remember the flag format! ;)</em><br>"
 }

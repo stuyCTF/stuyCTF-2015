@@ -1,4 +1,4 @@
 {
     "threshold": 1,
-    "weightmap": {"Easy-Overflow":1}
+    "weightmap": {"Object-Dumps": 1, "Easy-Overflow":1}
 }

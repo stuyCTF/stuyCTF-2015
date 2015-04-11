@@ -4,8 +4,8 @@
     "score": 75,
     "category": "Exploitation",
     "grader": "./Tic-Tac-Toe/grader.py",
-    "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br><br>Try to beat this computer!<br>The computer has been opened to the internet at <code>stuyctf.me:12348</code><br>",
+    "description": "It is often said that computers have perfected the games of tic-tac-toe... Is that really so?<br><br>Try to beat this computer! We managed to extract the <a href=\"/problem-static/Tic-Tac-Toe/ttt\">binary</a>.<br>The computer has been opened to the internet at <code>stuyctf.me:12348</code><br>",
     "threshold": 1,
-    "weightmap": {"Easy Overflow": 1},
+    "weightmap": {"Object Dumps": 1, "Easy Overflow": 1},
     "hint": "This is another buffer overflow exploit! You're going in blind this time.<br>"
 }

@@ -6,6 +6,6 @@
     "grader": "./Format-Overflow/grader.py",
     "description": "Combination of two exploits! This should be secure :)<br><br><a href=\"/problem-static/Format-Overflow/main-redacted.c\">Source Code</a><br><br>The computer has been opened to the internet at <code>stuyctf.me:12346</code><br>",
     "threshold": 2,
-    "weightmap": {"Easy Overflow": 1, "Tic Tac Toe": 1},
+    "weightmap": {"Simple Netcat": 1, "Easy Overflow": 1, "Tic Tac Toe": 1},
     "hint": ""
 }

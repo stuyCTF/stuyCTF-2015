@@ -5,7 +5,7 @@
     "category": "Miscellaneous",
     "grader": "./More-Than-Meets-The-Eye/grader.py",
     "description": "Where is the flag?<br><br>The computer has been opened to the internet at <code>stuyctf.me:12347</code><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Simple Netcat": 1},
     "hint": "Is there something hidden in the output?<br>"
 }

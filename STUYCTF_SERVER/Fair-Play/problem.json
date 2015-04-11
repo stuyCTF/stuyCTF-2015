@@ -5,7 +5,7 @@
     "category": "Miscellaneous",
     "grader": "./Fair-Play/grader.py",
     "description": "The quick brown fox jumps over the lazy dog!<br><br>meegihxo{smzdodcikmodcismzd}<br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Crypto 2": 1},
     "hint": "How good are your Googling skills?<br>"
 }

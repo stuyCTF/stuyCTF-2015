@@ -5,7 +5,7 @@
     "category": "Miscellaneous",
     "grader": "./How-Do-I-Use-Git-To-Help-Me/grader.py",
     "description": "<a href=\"https://github.com/stuyCTF/How-do-I-use-Git\">https://github.com/stuyCTF/How-do-I-use-Git</a><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"Group Recon": 1, "Trivia 2": 1},
     "hint": "How can you find help inside a Github repository?<br>"
 }
