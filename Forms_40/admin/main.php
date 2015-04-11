@@ -11,7 +11,7 @@ $flag = "stuyctf{forms_2_easy}";
 $a = $_POST["PIN"];
 $show = $_POST["showsource"];
 
-if (isset($show)) {
+if (isset($show) && $show != 0) {
     echo '<pre>
 $a = $_POST["PIN"];
 $show = $_POST["showsource"];
