@@ -5,7 +5,7 @@ Copy and paste the below into a python script:
 import urllib2
 import sys
 
-HOST = "http://stuyctf.me/sqli/login.php"
+HOST = "http://stuyctf.me/php/SQLi/login.php"
 
 def con(username , password , char , answer):
     TMP = HOST + "?username=" + username + "&password=" + password
