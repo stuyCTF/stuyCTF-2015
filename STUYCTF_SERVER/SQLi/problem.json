@@ -1,0 +1,11 @@
+
+{
+    "name": "SQLi",
+    "score": 55,
+    "category": "Web",
+    "grader": "./SQLi/grader.py",
+    "description": "The flag is the password for the user with username = \"admin\"<br><a href=\"http://stuyctf.me/sqli/login.html\">Login Site</a><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "This is a simple SQL injection. Take a look at the way login.php generates the page.<br>"
+}
