@@ -2,7 +2,7 @@
 {
     "name": "Group Recon",
     "score": 25,
-    "category": "Reconaissance",
+    "category": "Reconnaissance",
     "grader": "./Group-Recon/grader.py",
     "description": "groups/1398071047179600<br>",
     "threshold": 0,
