@@ -1,4 +1,4 @@
 It is often said that computers have perfected the games of tic-tac-toe... Is that really so?
 
 Try to beat this computer! We managed to extract the <a href="/problem-static/Tic-Tac-Toe/ttt">binary</a>.
-The computer has been opened to the internet at <code>stuyctf.me:12348</code>
+The computer has been opened to the internet at <code>stuyctf.me:12347</code>
