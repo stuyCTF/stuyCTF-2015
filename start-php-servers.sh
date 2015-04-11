@@ -9,6 +9,9 @@ PHP_ROOT=/srv/http/php
 # Must run setup as root since we are copying to a root network directory
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run the php setup script as root." ; exit 1 ; fi
 
+echo "Clearing old PHP files..."
+rm -rf $PHP_ROOT/*
+
 for phpserver in `find . -name "setup-php.sh"`
 do
     directory=$(dirname $phpserver)
