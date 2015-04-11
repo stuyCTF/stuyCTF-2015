@@ -1,4 +1,4 @@
-First inspect element and change the value of "show_source" to something other than 1, as you will be able to see the server-side check going on.
+First inspect element and change the value of "showsource" to something other than 1, as you will be able to see the server-side check going on.
 
 Input -19827747736161128312837161661727773716166727272616149001823847 as the PIN and you should get the flag
 

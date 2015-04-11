@@ -15,7 +15,7 @@ if (isset($show) && $show != 0) {
     echo '<pre>
 $a = $_POST["PIN"];
 if ($a == -19827747736161128312837161661727773716166727272616149001823847) {
-    echo "Congratulations! The flag is $flag;
+    echo "Congratulations! The flag is $flag";
 } else {
     echo "User with provided PIN not found."; 
 }
@@ -24,7 +24,7 @@ if ($a == -19827747736161128312837161661727773716166727272616149001823847) {
 
 if (isset($a)) {
     if ($a == -19827747736161128312837161661727773716166727272616149001823847) {
-        echo $flag;
+        echo "Congratulations! The flag is $flag";
     } else {
         echo "User with provided PIN not found.";
     }
