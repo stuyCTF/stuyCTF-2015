@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import sys, itertools
+import time
 
 flag = "stuyctf{why_backspace_no_werk}"
 
@@ -15,4 +16,5 @@ class UnbufferedStream(object):
 sys.stdout = UnbufferedStream(sys.stdout)
 
 for c in itertools.cycle(flag):
+    time.sleep(0.1)
     print c + "\b \b" + "TRANSFORMERS"
