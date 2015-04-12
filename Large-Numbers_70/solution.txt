@@ -1,1 +1,21 @@
+We can write a program like fib.hs or fib.py to bash out the solution, or we can
+consult WolphramAlpha.
+Here I'll illustrate the WolframAlpha solution.
+First, we need to figure out which fibonacci number is the first that is greater
+than 10^499999, so we can give WolframAlpha these queries:
+2000000th fibonacci number greater than 10^499999 => False
+3000000th fibonacci number greater than 10^499999 => True
+By bisecting the ranger between the upper and lower bounds, we quickly reach the
+solution:
+2392482th fibonacci number greater than 10^499999 => False
+2392483th fibonacci number greater than 10^499999 => True
+
+So we conclude that the 2392483th fibonacci number is the first that is greater
+than 10^499999. To find the sum of its digits:
+
+sum of the digits of the 2392483th fibonacci number => 2250347
+
+There's our answer!
+
+Flag:
 2250347
