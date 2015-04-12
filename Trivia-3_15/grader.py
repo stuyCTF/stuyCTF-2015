@@ -4,7 +4,8 @@
 #     Custom messages such as `return False, "OOOFFF SO CLOSE"` can be used
 
 def grade(arg, key):
-    if "udp" in key and "tcp" in key:
+    key = key.lower()
+    if ("udp" in key or "user datagram protocol" in key) and ("tcp" in key or "transmission control protocol" in key):
         return True, "Correct"
     else:
         return False, "Incorrect"
