@@ -5,7 +5,7 @@ First, we need to figure out which fibonacci number is the first that is greater
 than 10^499999, so we can give WolframAlpha these queries:
 2000000th fibonacci number greater than 10^499999 => False
 3000000th fibonacci number greater than 10^499999 => True
-By bisecting the ranger between the upper and lower bounds, we quickly reach the
+By bisecting the range between the upper and lower bounds, we quickly reach the
 solution:
 2392482th fibonacci number greater than 10^499999 => False
 2392483th fibonacci number greater than 10^499999 => True
