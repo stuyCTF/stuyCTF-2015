@@ -1,0 +1,1 @@
+Someone has stolen the flag and hid it on <a href="/problem-static/All-The-Elements/index.html">his site</a>! Let's not fall for the <em>decoy</em> flags and find the real flag!

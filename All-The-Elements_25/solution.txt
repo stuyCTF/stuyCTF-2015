@@ -1,0 +1,7 @@
+In one of the divs in the #background div, you'll find the one with a background image slightly different from the others.
+
+Looking closer, we see that the div with id ojsmlOPUNL9j9EvmJnMrWhBgJewJJEtUi3VXf8dGWc6fWyoJM7P4Y8rcf4DuZk9g7jXFanirwKgUxliQcBNNr6QCyz3FecLvOm0s has a background image that links to /problem-static/All-The-Elements/IMG_00111.jpg
+
+View that here: http://stuyctf.me/problem-static/All-The-Elements/IMG_00111.jpg
+
+stuyctf{look_for_the_static_directory}
