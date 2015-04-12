@@ -4,7 +4,7 @@
     "score": 60,
     "category": "Cryptography",
     "grader": "./Substitution/grader.py",
-    "description": "You intercepted this <a href=\"/problem/Substitution/encrypted.enc\">encrypted file</a> on an IRC channel.... What could it contain?<br>",
+    "description": "You intercepted this <a href=\"/problem-static/Substitution/encrypted.enc\">encrypted file</a> on an IRC channel.... What could it contain?<br>",
     "threshold": 1,
     "weightmap": {"Crypto 2": 1, "Trivia 3": 1},
     "hint": "It was written in English.<br>"

@@ -1,3 +1,1 @@
 <code>objdump</code> or any disassembler may be helpful in solving this problem.
-
-Please note that this problem is asking for the function address, so the standard flag format for this competition does not apply to this problem.

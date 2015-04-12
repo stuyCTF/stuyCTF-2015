@@ -6,6 +6,7 @@
 flag = "stuyctf{grep}"
 
 def grade(arg, key):
+    key = key.lower()
     if key == flag:
         return True, "Correct"
     else:

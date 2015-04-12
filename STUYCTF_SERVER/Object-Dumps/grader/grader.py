@@ -15,3 +15,5 @@ def grade(arg, key):
         return True, "Correct"
     else:
         return False, "Incorrect"
+
+print grade(1, "stuyctf{*0x80484c1}")

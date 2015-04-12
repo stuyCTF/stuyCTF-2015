@@ -4,8 +4,8 @@
     "score": 40,
     "category": "Reverse Engineering",
     "grader": "./Object-Dumps/grader.py",
-    "description": "We're given a compiled binary for a program that was written in C. We want the function address of the 'func' function! Can you help us find it?<br><br>The binary is available here: <a href=\"/problem-static/Object-Dumps/dumper\">dumper</a><br>",
+    "description": "We're given a compiled binary for a program that was written in C. We want the function address of the 'func' function! Can you help us find it?<br><br>The binary is available here: <a href=\"/problem-static/Object-Dumps/dumper\">dumper</a><br><br>Please note that this problem is asking for the function address, so the standard flag format for this competition does not apply to this problem.<br>",
     "threshold": 0,
     "weightmap": {},
-    "hint": "<code>objdump</code> or any disassembler may be helpful in solving this problem.<br><br>Please note that this problem is asking for the function address, so the standard flag format for this competition does not apply to this problem.<br>"
+    "hint": "<code>objdump</code> or any disassembler may be helpful in solving this problem.<br>"
 }
