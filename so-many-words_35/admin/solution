@@ -1,0 +1,7 @@
+#!/bin/bash
+final=""
+for x in $(grep "and" dictionary.txt); do
+  final=$final$x
+done
+final=$final
+echo ${#final}

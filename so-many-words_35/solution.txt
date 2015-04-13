@@ -1,0 +1,2 @@
+Run the solution script in admin.
+Flag: stuyctf{38441}

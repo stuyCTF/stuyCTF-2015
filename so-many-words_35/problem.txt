@@ -1,0 +1,9 @@
+What's the number of characters in all of the words containing "and"?
+<a href="/problem-static/so-many-words/dictionary.txt">Dictionary</a>
+Example:
+sand
+candy
+yo
+and
+
+flag would be: stuyctf{12}

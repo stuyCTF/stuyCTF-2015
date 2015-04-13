@@ -1,0 +1,2 @@
+Brush up on shell scripting, and on grep.
+Don't forget the flag format.
