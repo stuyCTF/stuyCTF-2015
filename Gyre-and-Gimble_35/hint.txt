@@ -1,0 +1,2 @@
+Remove all spaces and punctuation, and don't forget the flag format.
+stuyctf{flaggoeshere}

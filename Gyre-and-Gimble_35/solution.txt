@@ -1,0 +1,3 @@
+The poem is, of course, Jabberwocky, by Lewis Carroll.  Just take every third word of the poem, (the script in admin will do it) and tada! there's your flag.
+Flag: stuyctf{andtovesandthemimsyborogovesmomebewaremyjawsthecatchjubjubshunbandersnatchhisintimefoehetumtumstoodthoughtinhejabberwockofwhifflingtulgeyburbledcameonethroughthewentleftandheadgalumphinghasthetomyocalloohchortledjoyandtovesandthemimsyborogovesmome}
+
