@@ -1,0 +1,38 @@
+So the first thing you get is a .zip package called "notsvn"
+
+When you unzip, you get a folder called "notsvn" which also contains a file
+called git_isnt_svn, which contains "b4ck_"
+
+$ ls -a 
+# Shows a .svn folder, but as the file states, git is not svn, so we rename
+# it to '.git'
+
+$ mv .svn .git
+
+#Upon inspection inside the .git folder, we can see we have a git stash, so we do
+
+$ git stash pop
+$ cat git_isnt_svn
+c0mm1t5}
+$ git checkout git_isnt_svn
+b4ck_
+
+$ git reset HEAD~1
+$ git checkout git_isnt_svn
+$ cat git_isnt_svn
+11_
+
+Repeat the last 3 commands 7 more times, and you get the following output:
+
+o
+r
+{
+y
+u
+t
+s
+
+If we string all of the outputs of ` cat git_isnt_svn ` together, backwards, we
+get:
+
+stuyctf{ro11_b4ck_c0mm1t5}
