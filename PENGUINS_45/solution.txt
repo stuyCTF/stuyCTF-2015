@@ -5,7 +5,7 @@ see the first result has the exact same appearance as yeech's image.
 <code>
 >> wget "http://f.fastcompany.net/multisite_files/fastcompany/poster/2014/11/3038069-poster-p-1-these-fake-baby-penguin-robots-are-helping-scientists-collect-better-data.jpg"
 download blah blah blah
->> cmp -b -l 3038069-poster-p-1-these-fake-baby-penguin-robots-are-helping-scientists-collect-better-data.jpg penguin2.jpg
+>> cmp -b -l 3038069-poster-p-1-these-fake-baby-penguin-robots-are-helping-scientists-collect-better-data.jpg penguin.jpg
 
      36 163 s    153 k
     160 164 t     72 :
@@ -37,7 +37,7 @@ download blah blah blah
 cmp: EOF on 3038069-poster-p-1-these-fake-baby-penguin-robots-are-helping-scientists-collect-better-data.jpg
 </code>
 
-Then if we look at the penguin2.jpg via a hex editor, we can see that after the
+Then if we look at the penguin.jpg via a hex editor, we can see that after the
 EOF there's a "s}" wich finishes our flag.
 
 flag: stuyctf{yEech_lIkes_p3nguIns}
