@@ -1,2 +1,2 @@
 I found this zip file, and the flag is supposed to be in it... but where is it?
-<a href="/problem-static/Not_SVN/notsvn.zip> File </a>
+<a href="/problem-static/Not-SVN/notsvn.zip"> File </a>

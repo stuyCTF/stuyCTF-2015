@@ -1,0 +1,11 @@
+
+{
+    "name": "PENGUINS",
+    "score": 45,
+    "category": "Miscellaneous",
+    "grader": "./PENGUINS/grader.py",
+    "description": "It seems like Yeech screwed something up while porting one of his favorite pictures...<br><img src=\"/problem-static/PENGUINS/penguin.jpg\" /><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Yicheng has never been to Antarctica<br>"
+}
