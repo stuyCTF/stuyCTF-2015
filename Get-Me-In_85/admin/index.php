@@ -6,7 +6,7 @@ $flag = "stuyctf{cOOkies_and_hAshing_go_well_together}";
 $secret = "B9S0D2F3";
 
 $username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
-$username = (empty($_POST["password"])) ? "admin" : $_POST["password"];
+$password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
     if ($username === "admin" && $password != "admin") {
@@ -37,7 +37,7 @@ $flag = "XXXXXXXXXXXXXXXXXXXXXXX";
 $secret = "XXXXXXXX"; // This secret is 8 characters long for security!
 
 $username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
-$username = (empty($_POST["password"])) ? "admin" : $_POST["password"];
+$password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
     if ($username === "admin" && $password != "admin") {
