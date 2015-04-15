@@ -1,0 +1,11 @@
+
+{
+    "name": "Gyre and Gimble",
+    "score": 35,
+    "category": "Recon",
+    "grader": "./Gyre-and-Gimble/grader.py",
+    "description": "Gyre and Gimble, two of Sad Richard's friends, told me they hid a secret password in a poem they like.<br>\"Just take every third word!\", they told me.<br>But I can't remember the name of the poem!  I just remember it was full of nonsense.<br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "Remove all spaces and punctuation, make it lowercase, and don't forget the flag format.<br>stuyctf{flaggoeshere}<br>"
+}
