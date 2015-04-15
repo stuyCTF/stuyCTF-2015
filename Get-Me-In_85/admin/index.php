@@ -23,7 +23,7 @@ if (!empty($_COOKIE["getmein"])) {
     }
 }
 
-if (empty($_COOKIE{"sample-hash"])) {
+if (empty($_COOKIE["sample-hash"])) {
     setcookie("sample-hash", md5($secret . urlencode($username . $password)), time() + (60 * 60 * 24 * 7));
 }
 
