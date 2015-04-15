@@ -1,7 +1,7 @@
 
 {
     "name": "PENGUINS",
-    "score": 45,
+    "score": 65,
     "category": "Miscellaneous",
     "grader": "./PENGUINS/grader.py",
     "description": "It seems like Yeech screwed something up while porting one of his favorite pictures...<br><img src=\"/problem-static/PENGUINS/penguin.jpg\" /><br>",
