@@ -8,8 +8,8 @@ $secret = "B9S0D2F3";
 $username = $_POST["username"]; 
 $password = $_POST["password"];
 
-if (!empty($_COOKIE["token"])) {
-    if ($COOKIE["token"] == md5($secret . urldecode($usernamme . $password))) {
+if (!empty($_COOKIE["getmein"])) {
+    if ($COOKIE["getmein"] == md5($secret . urldecode($usernamme . $password))) {
         echo "Congratulations! You are a registered user.\n";
         die ("The flag is ". $flag);
     }
@@ -33,8 +33,8 @@ $secret = "XXXXXXXX"; // This secret is 8 characters long for security!
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-if (!empty($_COOKIE["token"])) {
-    if ($COOKIE["token"] == md5($usernamme . $password . $secret)) {
+if (!empty($_COOKIE["getmein"])) {
+    if ($COOKIE["getmein"] == md5($usernamme . $password . $secret)) {
         echo "Congratulations! You are a registered user.\n";
         die ("The flag is ". $flag);
     }
