@@ -5,7 +5,7 @@
     "category": "Forensics",
     "grader": "./Not-SVN/grader.py",
     "description": "I found this zip file, and the flag is supposed to be in it... but where is it?<br><a href=\"/problem-static/Not-SVN/notsvn.zip\"> File </a><br>",
-    "threshold": 0,
-    "weightmap": {},
+    "threshold": 1,
+    "weightmap": {"How Do I Use Git": 1, "How Do I Use Git To Help Me": 1},
     "hint": "Unzip the folder. The file there is a hint. The contents of the folder are also a hint. Now it's up to your skillz ;)<br>"
 }

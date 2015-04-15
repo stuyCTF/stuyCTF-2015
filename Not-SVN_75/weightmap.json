@@ -1,4 +1,4 @@
 {
-    "threshold": 0,
-    "weightmap": {}
+    "threshold": 1,
+    "weightmap": {"How-Do-I-Use-Git-To-Help-Me": 1, "How-Do-I-Use-Git": 1}
 }
