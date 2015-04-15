@@ -1,11 +1,11 @@
 
 {
     "name": "Tetraodontidae",
-    "score": 70,
+    "score": 70-IMCOMPLETE,
     "category": "Cryptography",
     "grader": "./Tetraodontidae/grader.py",
-    "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\">",
-    "threshold": 0,
-    "weightmap": {},
-    "hint": "stringsssss"
+    "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\"><br>",
+    "threshold": 1,
+    "weightmap": {"Strings": 1, "Snake": 1},
+    "hint": "Hope you're familiar with Stringgsssss<br>"
 }
