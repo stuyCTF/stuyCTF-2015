@@ -24,7 +24,7 @@ if (!empty($_COOKIE["getmein"])) {
 }
 
 if (empty($_COOKIE["sample-hash"])) {
-    setcookie("sample-hash", md5($secret . urlencode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
+    setcookie("sample-hash", md5($secret . urldecode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
 }
 
 if (empty($_COOKIE["source"])) {
@@ -55,7 +55,7 @@ if (!empty($_COOKIE["getmein"])) {
 }
 
 if (empty($_COOKIE{"sample-hash"])) {
-    setcookie("sample-hash", md5($secret . urlencode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
+    setcookie("sample-hash", md5($secret . urldecode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
 }
 
 if (empty($_COOKIE["source"])) {
