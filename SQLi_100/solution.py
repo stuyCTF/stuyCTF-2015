@@ -2,9 +2,8 @@
 
 '''
 This is a simple boolean injection. We hope you did not do this manually!
-The result of this is: 
-
-
+The result of this is: stuyctf{passwords_shouldnt_be_flags_in_ctfs}
+'''
 
 import urllib2
 import sys
