@@ -2,14 +2,14 @@
 <body>
 
 <?php
-$flag = "stuyctf{cOOkieS_4nd_hAshing_Go_well_t0g3ther}";
+$flag = "stuyctf{cOOkieS_4nd_hAshIng_G0_w3LL_t0g3ther}";
 $secret = "B9S0D2F3";
 
 $username = $_POST["username"];
 $password = $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
-    if ($username === "admin" && $password != "admin") {
+    if (urldecode($username) === "admin" && urldecode($password) != "admin") {
         if ($_COOKIE["getmein"] === md5($secret . urldecode($username . $password))) {
             echo "Congratulations! You are a registered user.\n";
             die ("The flag is ". $flag);
@@ -40,7 +40,7 @@ $username = $_POST["username"];
 $password = $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
-    if ($username === "admin" && $password !== "admin") {
+    if (urldecode($username) === "admin" && urldecode($password) != "admin") {
         if ($COOKIE["getmein"] === md5($secret . urldecode($username . $password))) {
             echo "Congratulations! You are a registered user.\n";
             die ("The flag is ". $flag);
