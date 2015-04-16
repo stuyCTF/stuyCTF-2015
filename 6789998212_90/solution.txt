@@ -1,8 +1,0 @@
-On one channel, this stereo file is morse.
-Dragging into audacity reveals a strange looking channel.
-
--- ..- --.. .. -.- .. ... --. ----- ----- -..
-
-MUZIKISG00D
-
-Flag: stuyctf{MUZIKISG00D}
