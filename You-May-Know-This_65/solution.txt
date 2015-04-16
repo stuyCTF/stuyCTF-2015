@@ -1,6 +1,0 @@
-This is an osu archive!
-Install Osu, open with osu, it opens up "The Big Black"
-Navigate to osu songs folder, there is a .zip archive hidden in the background
-of The Big Black. Base64 decode flag.txt inside the zip archive to get:
-
-stuyctf{wh0s_afra1d_0f_th3_b1g_black}
