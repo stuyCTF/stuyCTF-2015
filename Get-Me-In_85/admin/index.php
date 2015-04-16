@@ -9,8 +9,8 @@ $username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
 $password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
-    if ($username === "admin" && $password != "admin") {
-        if ($COOKIE["getmein"] == md5($secret . urldecode($username . $password))) {
+    if ($username === "admin" && $password !== "admin") {
+        if ($COOKIE["getmein"] === md5($secret . urldecode($username . $password))) {
             echo "Congratulations! You are a registered user.\n";
             die ("The flag is ". $flag);
         }
@@ -40,8 +40,8 @@ $username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
 $password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
-    if ($username === "admin" && $password != "admin") {
-        if ($COOKIE["getmein"] == md5($secret . urldecode($username . $password))) {
+    if ($username === "admin" && $password !== "admin") {
+        if ($COOKIE["getmein"] === md5($secret . urldecode($username . $password))) {
             echo "Congratulations! You are a registered user.\n";
             die ("The flag is ". $flag);
         }
@@ -74,7 +74,7 @@ else {
 <h1>Admins Only!</h1>
 <p>If you have the correct credentials, log in below. If not, please LEAVE.</p>
 <form method="POST">
-    <input type="text" name="username">
-    <input type="password" name="password">
+    Username: <input type="text" name="username"> <br>
+    Password: <input type="password" name="password"> <br>
     <button type="submit">Submit</button>
 </form>
