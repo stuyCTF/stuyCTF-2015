@@ -1,2 +1,3 @@
 It seems like Yeech screwed something up while porting one of his favorite pictures...
+
 <img src="/problem-static/PENGUINS/penguin.jpg" style="width: 600px; max-width: 100%;" />
