@@ -1,7 +1,7 @@
 <?php
     $connection = mysqli_connect([REDACTED] , [REDACTED] , [REDACTED] , [REDACTED]);
-    $username = $_POST["username"];
-    $password = $_POST["password"];
+    $username = $_GET["username"];
+    $password = $_GET["password"];
 
     $query = "SELECT * FROM users where username='$username' AND password='$password'";
 
