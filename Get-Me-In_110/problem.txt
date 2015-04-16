@@ -1,0 +1,1 @@
+We found this <a href="/php/Get-Me-In/index.php">secret site</a>, but we can't seem to get in to get the flag! The creator has set up some barriers to prevent us from hacking it. Surely you're better than him!

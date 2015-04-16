@@ -1,1 +1,1 @@
-<img src="/problem-static/Snake/snake.jpg" />
+<img src="/problem-static/Snake/snake.jpg" style="width: 600px; max-width: 100%;"/>

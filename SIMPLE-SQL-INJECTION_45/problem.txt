@@ -1,0 +1,3 @@
+SQL Injections pose the biggest threat to the web today. Many programmers forget to protect their servers and websites from these types of injections, and thus, they get <strong>hacked</strong>. It seems like we've come across one of these websites vulnerable to SQL Injections. Can you get the flag from <a href="/php/SIMPLE-SQL-INJECTION/index.php">this site</a>?
+
+We've also managed to extract <a href="/problem-static/SIMPLE-SQL-INJECTION/login.php">the source of the server</a>!

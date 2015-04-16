@@ -1,1 +1,1 @@
-<img src="/problem-static/Tetraodontidae/pic.jpg">
+<img src="/problem-static/Tetraodontidae/pic.jpg" style="width: 600px; max-width: 100%;">

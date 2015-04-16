@@ -1,0 +1,4 @@
+{
+    "threshold": 1,
+    "weightmap": {"SIMPLE-SQL-INJECTION": 1}
+}

@@ -1,5 +1,0 @@
-First you will need to change your cookies to be able to view the PHP source code and see what's going on server-side.
-This requires changing the value of the "source" cookie to something other than 0 (which is another way of saying false).
-
-In the source code, we get that we have to make the token match up with the credentials that we pass in along with an eight character salt.
-This is a common web exploit that uses hash extension http://en.wikipedia.org/wiki/Length_extension_attack

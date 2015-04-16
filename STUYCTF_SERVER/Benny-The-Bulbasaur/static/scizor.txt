@@ -1,7 +1,0 @@
-Type: Bug, Steel
-HP: 334
-Attack: 394
-Defense: 328
-Sp. Attack: 229
-Sp. Defense: 284
-Speed: 251
