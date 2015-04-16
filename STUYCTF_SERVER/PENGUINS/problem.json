@@ -4,7 +4,7 @@
     "score": 65,
     "category": "Miscellaneous",
     "grader": "./PENGUINS/grader.py",
-    "description": "It seems like Yeech screwed something up while porting one of his favorite pictures...<br><img src=\"/problem-static/PENGUINS/penguin.jpg\" /><br>",
+    "description": "It seems like Yeech screwed something up while porting one of his favorite pictures...<br><img src=\"/problem-static/PENGUINS/penguin.jpg\" style=\"width: 600px; max-width: 100%;\" /><br>",
     "threshold": 1,
     "weightmap": {"TT": 1, "Strings": 1, "Snake": 1},
     "hint": "Yicheng has never been to Antarctica<br>"

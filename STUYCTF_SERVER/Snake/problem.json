@@ -4,7 +4,7 @@
     "score": 77,
     "category": "Forensics",
     "grader": "./Snake/grader.py",
-    "description": "<img src=\"/problem-static/Snake/snake.jpg\" /><br>",
+    "description": "<img src=\"/problem-static/Snake/snake.jpg\" style=\"width: 600px; max-width: 100%;\"/><br>",
     "threshold": 2,
     "weightmap": {"Hex": 1, "Strings": 1},
     "hint": "Think different kinds of snakes :)<br>"
