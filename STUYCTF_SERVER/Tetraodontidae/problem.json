@@ -1,8 +1,8 @@
 
 {
     "name": "Tetraodontidae",
-    "score": 70-IMCOMPLETE,
-    "category": "Cryptography",
+    "score": 70,
+    "category": "Forensics/Cryptography",
     "grader": "./Tetraodontidae/grader.py",
     "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\"><br>",
     "threshold": 1,
