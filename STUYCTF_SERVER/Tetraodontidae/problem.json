@@ -4,7 +4,7 @@
     "score": 70,
     "category": "Forensics/Cryptography",
     "grader": "./Tetraodontidae/grader.py",
-    "description": "<img src=\"/problem-static/Tetradontidae/pic.jpg\"><br>",
+    "description": "<img src=\"/problem-static/Tetraodontidae/pic.jpg\"><br>",
     "threshold": 1,
     "weightmap": {"Strings": 1, "Snake": 1},
     "hint": "Hope you're familiar with Stringgsssss<br>"
