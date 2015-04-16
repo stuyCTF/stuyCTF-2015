@@ -1,3 +1,4 @@
-The flag is the password for the user with username = "admin". The password is a combination of the following characters: <code>abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}</code>
+The flag is the password for the user with username = "admin".
+The password is a combination of the following characters: <code>abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}</code>
 
 Here's the <a href="/php/SQLi/index.php">Login Site</a>. The source code is <a href="/problem-static/SQLi/login.php">here</a>.

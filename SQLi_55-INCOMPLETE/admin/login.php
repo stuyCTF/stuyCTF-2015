@@ -1,8 +1,7 @@
 <?php
-
-    $connection = mysqli_connect("localhost" , "root" , "toor" , "stuyctf");
-    $username = mysqli_real_escape_string($connection , $_POST["username"]);
-    $password = mysqli_real_escape_string($connection , $_POST["password"]);
+    $connection = mysqli_connect("localhost" , "web-data" , "nginx" , "stuyctf");
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
     $query = "SELECT * FROM users where username='$username' AND password='$password'";
 
