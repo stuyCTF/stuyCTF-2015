@@ -1,5 +1,28 @@
 First you will need to change your cookies to be able to view the PHP source code and see what's going on server-side.
 This requires changing the value of the "source" cookie to something other than 0 (which is another way of saying false).
 
+This can be done using `document.cookie="source=1";`
+
 In the source code, we get that we have to make the token match up with the credentials that we pass in along with an eight character salt.
 This is a common web exploit that uses hash extension http://en.wikipedia.org/wiki/Length_extension_attack
+
+Using any of the open-source hash extension software online, we can easily solve this problem. https://github.com/search?utf8=✓&q=hash+extension
+In this case, we'll be using hashpump (inspiration from picoCTF). https://github.com/bwall/HashPump
+
+We will add 1 to the data that is hashed (adminadmin).
+> hashpump -s 571580b26c65f306376d4f64e53cb5c7 -d adminadmin -a 1 -k 15
+
+  d0558afb6e94d46508a65f519a745544
+  adminadmin\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x00\x00\x00\x001
+
+The first output is the new hash and the second is the new plaintext (with a lot of buffer). Since you see that the server uses urldecode on the password, we are in luck and can send these special characters using urlencode.
+
+> php -r 'echo urlencode("adminadmin\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x00\x00\x00\x00\x00\x00\x001");'
+
+  adminadmin%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%C8%00%00%00%00%00%00%001
+
+Since the username is admin, we'll separate that from the plaintext and put the rest in the password field.
+
+curl -d "username=admin&password=admin%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%C8%00%00%00%00%00%00%001" -b "getmein=d0558afb6e94d46508a65f519a745544" http://stuyctf.me/php/Get-Me-In/index.php
+
+stuyctf{cOOkieS_4nd_hAshIng_G0_w3LL_t0g3ther}

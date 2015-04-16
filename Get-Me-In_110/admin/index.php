@@ -78,3 +78,6 @@ else {
     Password: <input type="password" name="password"> <br>
     <button type="submit">Submit</button>
 </form>
+
+</body>
+</html>
