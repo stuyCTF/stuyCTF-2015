@@ -11,7 +11,7 @@ RESET="\033[m"
 PID=$$
 PROBLEM_NAME="Sleepwalking" # keep this formal
 SCRIPT_TO_RUN="python trivia.py"
-PORT=34521
+PORT=345212
 PROBLEM_NAME_SLUG=${PROBLEM_NAME// /-}
 TYPE=tcpserver
 if [[ ! -f ../../$PROBLEM_NAME_SLUG.pid ]]; then
