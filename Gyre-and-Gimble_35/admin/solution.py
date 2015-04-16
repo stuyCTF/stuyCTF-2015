@@ -6,7 +6,7 @@ for i in range(len(L)):
     if i % 3==2:
         sol+=L[i]
 sol=sol.lower()
-punc='.,`!\'-"'
+punc='.,`!\'-";'
 for x in punc:
     sol=sol.replace(x,'')
 sol+='}'
