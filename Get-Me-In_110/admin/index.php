@@ -3,7 +3,7 @@
 
 <?php
 $flag = "stuyctf{cOOkieS_4nd_hAshIng_G0_w3LL_t0g3ther}";
-$secret = "B9S0D2F3";
+$secret = "J9S0d2#F3xZ9$1g";
 
 $username = $_POST["username"];
 $password = $_POST["password"];
@@ -34,7 +34,7 @@ else {
     if ($_COOKIE["source"] != 0) {
         echo '<pre>
 $flag = "XXXXXXXXXXXXXXXXXXXXXXX";
-$secret = "XXXXXXXX"; // This secret is 8 characters long for security!
+$secret = "XXXXXXXXXXXXXXX"; // This secret is 15 characters long for security!
 
 $username = $_POST["username"];
 $password = $_POST["password"];
