@@ -1,0 +1,11 @@
+
+{
+    "name": "SQLi",
+    "score": 100,
+    "category": "Exploitation",
+    "grader": "./SQLi/grader.py",
+    "description": "The flag is the password for the user with username = \"admin\".<br>The password is a combination of the following characters: <code>abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}</code><br><br>Here's the <a href=\"/php/SQLi/index.php\">Login Site</a>. The source code is <a href=\"/problem-static/SQLi/login.php\">here</a>.<br>",
+    "threshold": 1,
+    "weightmap": {"SIMPLE SQL INJECTION": 1},
+    "hint": "Take a look at the way login.php generates the page.<br>"
+}

@@ -1,6 +1,7 @@
 <?php
+    $flag = "stuyctf{sql_injections_are_fun_but_also_the_biggest_web_problem}";
 
-    $connection = mysqli_connect([REDACTED] , [REDACTED] , [REDACTED] , [REDACTED]);
+    $connection = mysqli_connect("localhost" , "web-data" , "nginx" , "stuyctf");
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -11,6 +12,7 @@
     echo "<h1> stuyCTF Login Status: </h1>";
     if (mysqli_num_rows($result) === 1) {
         echo "<p> Logged in! </p>";
+        echo "<p> Your flag is $flag </p>";
     } else {
         echo "<p> Login failed... </p>";
     }
