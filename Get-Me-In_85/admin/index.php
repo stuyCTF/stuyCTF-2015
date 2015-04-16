@@ -2,14 +2,14 @@
 <body>
 
 <?php
-$flag = "stuyctf{cOOkies_and_hAshing_go_well_together}";
+$flag = "stuyctf{cOOkieS_4nd_hAshing_Go_well_t0g3ther}";
 $secret = "B9S0D2F3";
 
-$username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
-$password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
+$username = $_POST["username"];
+$password = $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
-    if ($username === "admin" && $password !== "admin") {
+    if ($username === "admin" && $password != "admin") {
         if ($_COOKIE["getmein"] === md5($secret . urldecode($username . $password))) {
             echo "Congratulations! You are a registered user.\n";
             die ("The flag is ". $flag);
@@ -24,7 +24,7 @@ if (!empty($_COOKIE["getmein"])) {
 }
 
 if (empty($_COOKIE["sample-hash"])) {
-    setcookie("sample-hash", md5($secret . urlencode($username . $password)), time() + (60 * 60 * 24 * 7));
+    setcookie("sample-hash", md5($secret . urlencode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
 }
 
 if (empty($_COOKIE["source"])) {
@@ -36,8 +36,8 @@ else {
 $flag = "XXXXXXXXXXXXXXXXXXXXXXX";
 $secret = "XXXXXXXX"; // This secret is 8 characters long for security!
 
-$username = (empty($_POST["username"])) ? "admin" : $_POST["username"];
-$password = (empty($_POST["password"])) ? "admin" : $_POST["password"];
+$username = $_POST["username"];
+$password = $_POST["password"];
 
 if (!empty($_COOKIE["getmein"])) {
     if ($username === "admin" && $password !== "admin") {
@@ -55,7 +55,7 @@ if (!empty($_COOKIE["getmein"])) {
 }
 
 if (empty($_COOKIE{"sample-hash"])) {
-    setcookie("sample-hash", md5($secret . urlencode($username . $password)), time() + (60 * 60 * 24 * 7));
+    setcookie("sample-hash", md5($secret . urlencode("admin" . "admin")), time() + (60 * 60 * 24 * 7));
 }
 
 if (empty($_COOKIE["source"])) {
