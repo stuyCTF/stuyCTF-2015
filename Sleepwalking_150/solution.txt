@@ -1,0 +1,38 @@
+Some thinking and a search will lead you to Sleepwalking by Peter Hollens. https://www.youtube.com/watch?v=Ih7Zh9YduRo
+My comment should be right there. https://www.youtube.com/watch?v=Ih7Zh9YduRo&lc=z131iny5drzqcnert04chtexvq23iz5reyw0k
+
+"This is an awesome song....
+
+But you can't really have the nostalgia AND the happiness.  It's an either or type of thing.  Only one can be true for the statement to be true.
+
+VGhlIGtleSBpcyB0aGUgc3R1cGlkIGRlZmF1bHQgV2luZG93cyBmaWxlc3lzdGVtIHR5cGUsIGFsbCBsb3dlcmNhc2Uu==
+
+1225951bcf0ec5889dab77c8e48749582b9f3906e979038fe4ae4508c13c5cd536a45a1462f5f3525668af7f46b370bb631a70b90399f3b7fa80de225361e5cbf03796ce6b8c171abc2f47dbe08db6016d8871
+
+http://goo.gl/forms/JLEkZlLJPu"
+
+The text up above should hint that the cipher used is XOR but what's the key?
+The equal signs show that's b64 encrypted, decrypted to "The key is the stupid default Windows filesystem type, all lowercase."
+That should be ntfs.  XOR on the hex above with key ntfs gives:
+
+"A frame within a frame within a frame... these six stories really take me high!"
+
+Google search for frame story will yield a wikipedia article.  Reading through, or searching for six, will find you Cloud Atlas.
+
+Now to the google form.
+
+The first question is the final answer from youtube comment, which is of course Cloud Atlas (case sensitive)
+
+The second is The Perfect Four: FLAC & MP3 320 & MP3 V0 & MP3 V2 help text merch
+Playing with answer box will tell you to enter in the number of donor points squared times 30 + my year of birth
+Googling The Perfect Four merch will lead you to: http://whatstore.portmerch.com/stores/
+
+You'll quickly see the Perfect Four shirt, worth two donor points, and 120+1997 will give you 2117
+
+Now the third question is a poem: The flag is near and so are you, so don't be sad and don't be blue, I know you hate me, don't be a diva, the middle school I went to is....
+
+Digging through facebook until like 2010, or messaging specific old friends, or looking through my images and translating from Hebrew the album name of the one picture I have will probably yield the word Barkai.
+Googling Barkai, will give you Barkai Yeshivah, which is the answer to the last one.
+
+The flag is:
+stuyctf{You_only_thought_you_hated_Zabari_after_Hunt...LOL}
