@@ -1,0 +1,11 @@
+
+{
+    "name": "Sleepwalking",
+    "score": 00,
+    "category": "Reconnaissance",
+    "grader": "./Sleepwalking/grader.py",
+    "description": "I really like Peter Hollens.<br><br><br>Alright guys, here's the deal with this problem.  Having a recon this hard was really controversial, and most of the team wasn't down with it.  Because the problem was already written, I polled the group, and it seemed like you guys wanted this.  It is hard.  It will take time.  You will want to kill me.<br><br>This question will serve as a tiebreaker, in the event of any ties.<br>In addition, the first two teams to solve and send me an explanation, will receive a prize from me.<br><br>zabari.daniel@Gmail.com is where you should send your solution, after you've submitted the flag.<br><br>Good luck.<br><br>",
+    "threshold": 0,
+    "weightmap": {},
+    "hint": "LOL nahh sorry <3<br>"
+}
