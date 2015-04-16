@@ -1,2 +1,1 @@
 Remove all spaces and punctuation, make it lowercase, and don't forget the flag format.
-stuyctf{flaggoeshere}
