@@ -6,4 +6,7 @@ In addition, the first two teams to solve and send me an explanation, will recei
 
 zabari.daniel@gmail.com is where you should send your solution, after you've submitted the flag.
 
-Good luck.</blockquote>
+Good luck.
+
+Also, so far only one team has solved it (I know it says two on the top but the counter can lie ;)
+</blockquote>
